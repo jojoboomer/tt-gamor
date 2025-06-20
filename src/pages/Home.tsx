@@ -1,8 +1,11 @@
+import Header from "@/components/header";
+
 const Home = () => {
   return (
     <div className="">
-      <h1>Gamor</h1>
-      <h2>Streaming</h2>
+      <section className="h-screen w-full px-16 flex flex-col pb-12">
+        <Header />
+      </section>
     </div>
   );
 };
