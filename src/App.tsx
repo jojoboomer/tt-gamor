@@ -1,8 +1,17 @@
+import { Route, Routes } from "react-router"
+import RootLayout from "./layout/rootLayout"
+import Home from "./pages/Home"
+import Login from "./pages/Login"
+
 function App() {
 
   return (
-    <main className="bg-blue-500 w-full h-screen">
-    </main>
+    <Routes>
+      <Route element={<RootLayout />}>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<Login />} />
+      </Route>
+    </Routes>
   )
 }
 
