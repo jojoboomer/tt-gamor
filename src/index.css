@@ -43,6 +43,7 @@ p {
     --color-text: var(--text);
     --color-text-secondary: var(--text-secondary);
 
+    --color-primary: var(--primary);
     --color-accent: var(--accent);
 }
 
