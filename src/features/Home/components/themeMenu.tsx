@@ -1,6 +1,6 @@
-import useGamorStore, { type Theme } from "@/store/store";
 import Button from "@components/ui/buttom";
 import Menu from "@components/ui/menu";
+import useGamorStore, { type Theme } from "@store/ui.store";
 import { Computer, Lightbulb, Moon, Sun } from "lucide-react";
 
 type MenuItem = {
