@@ -2,116 +2,33 @@ import { cn } from "@/lib/utils";
 import { cva } from "class-variance-authority";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
   {
     variants: {
       variant: {
-        default: "",
-        outline: "bg-transparent border",
-        ghost: "hover:bg-black/10 dark:hover:bg-white/10",
-        link: "underline-offset-4 hover:underline",
-        icon: "rounded-full",
-      },
-      color: {
-        default: "text-black dark:text-white",
-        primary: "text-primary",
-        accent: "text-accent",
+        default:
+          "hover:bg-black/80 bg-black text-white dark:hover:bg-white/80 dark:bg-white dark:text-black shadow",
+        outline:
+          "border bg-transparent shadow",
+        primary:
+          "bg-primary text-white hover:bg-primary/70 shadow ",
+        text:
+          "hover:text-text/70 text-text !px-1",
+        link: "text-primary underline-offset-4 hover:underline",
       },
       size: {
-        sm: "h-8 px-3 text-xs",
-        md: "h-9 px-4 py-2",
-        lg: "h-10 px-8",
+        sm: "h-8 rounded-md gap-1.5 px-3",
+        md: "h-9 px-4 py-2 ",
+        lg: "h-10 rounded-md px-6 ",
         icon: "size-9",
       },
     },
-    compoundVariants: [
-      // Default
-      {
-        variant: "default",
-        color: "default",
-        class: "hover:bg-black/80 bg-black text-white dark:hover:bg-white/80 dark:bg-white dark:text-black shadow ",
-      },
-      {
-        variant: "default",
-        color: "primary",
-        class: "hover:bg-primary/80 bg-primary text-white shadow ",
-      },
-      {
-        variant: "default",
-        color: "accent",
-        class: "hover:bg-accent/80 bg-accent text-black shadow ",
-      },
-      // Outline
-      {
-        variant: "outline",
-        color: "default",
-        class: "hover:text-black/80 text-black dark:hover:text-white/80 dark:text-white",
-      },
-      {
-        variant: "outline",
-        color: "primary",
-        class: "hover:text-primary/80 text-primary",
-      },
-      {
-        variant: "outline",
-        color: "accent",
-        class: "hover:opacity-80 text-accent",
-      },
-      // Ghost
-      {
-        variant: "ghost",
-        color: "default",
-        class: "",
-      },
-      {
-        variant: "ghost",
-        color: "primary",
-        class: "text-primary hover:bg-primary/10",
-      },
-      {
-        variant: "ghost",
-        color: "accent",
-        class: "text-accent hover:bg-accent/10",
-      },
-      // Links
-      {
-        variant: "link",
-        color: "default",
-        class: "text-black dark:text-white",
-      },
-      {
-        variant: "link",
-        color: "primary",
-        class: "text-blue-600",
-      },
-      {
-        variant: "link",
-        color: "accent",
-        class: "text-green-600",
-      },
-      // Icon
-      {
-        variant: "icon",
-        color: "default",
-        class: "hover:bg-black/80 bg-black text-white dark:hover:bg-white/80 dark:bg-white dark:text-black shadow ",
-      },
-      {
-        variant: "icon",
-        color: "primary",
-        class: "hover:bg-primary/80 bg-primary text-white shadow ",
-      },
-      {
-        variant: "icon",
-        color: "accent",
-        class: "hover:bg-accent/80 bg-accent text-black shadow ",
-      },
-    ],
+
     defaultVariants: {
       variant: "default",
-      color: "default",
       size: "md",
     },
-  },
+  }
 )
 
 interface Props extends React.ComponentProps<"button"> {
@@ -125,7 +42,6 @@ interface Props extends React.ComponentProps<"button"> {
 const Button = ({
   children,
   variant = "default",
-  color = "default",
   size = "md",
   className,
   ...props
@@ -134,7 +50,7 @@ const Button = ({
   return (
     <button
       className={cn(
-        buttonVariants({ variant, color, size, className }),
+        buttonVariants({ size, variant, className }),
         className
       )}
       {...props}
