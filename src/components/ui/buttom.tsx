@@ -89,6 +89,22 @@ const buttonVariants = cva(
         color: "accent",
         class: "text-green-600",
       },
+      // Icon
+      {
+        variant: "icon",
+        color: "default",
+        class: "hover:bg-black/80 bg-black text-white dark:hover:bg-white/80 dark:bg-white dark:text-black shadow ",
+      },
+      {
+        variant: "icon",
+        color: "primary",
+        class: "hover:bg-primary/80 bg-primary text-white shadow ",
+      },
+      {
+        variant: "icon",
+        color: "accent",
+        class: "hover:bg-accent/80 bg-accent text-black shadow ",
+      },
     ],
     defaultVariants: {
       variant: "default",
