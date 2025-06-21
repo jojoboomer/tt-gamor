@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-const storageKey = "gamor-sore";
+const storageKey = "gamor-store";
 
 export type Theme = "dark" | "light" | "system";
 
@@ -22,13 +22,20 @@ const useGamorStore = create<State & Actions>()(
   persist(
     (set) => ({
       ...initialState,
-      toggleTheme: () => set((state) => {
-        const nextTheme =
-          state.theme === 'light' ? 'dark' :
-          state.theme === 'dark' ? 'system' :
-          'light';
-        return { theme: nextTheme };
-      }),
+      toggleTheme: () =>
+        set((state) => {
+          console.log(state.theme);
+          if (state.theme === "system") {
+            const systemTheme = window.matchMedia(
+              "(prefers-color-scheme: dark)"
+            ).matches
+              ? "light"
+              : "dark";
+            return { theme: systemTheme };
+          }
+          const nextTheme = state.theme === "light" ? "dark" : "light";
+          return { theme: nextTheme };
+        }),
       setTheme: (theme) => set({ theme }),
     }),
     {
