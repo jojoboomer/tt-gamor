@@ -33,6 +33,17 @@ p {
     font-size: clamp(0.875rem, 5vw, 1rem);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: inherit !important;
+    transition: background-color 9999s ease-in-out 0s !important;
+    color: var(--color-text) !important;
+    appearance: none !important;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
@@ -49,10 +60,10 @@ p {
 
 :root {
     --background: oklch(96.02% 0.00353 248.565);
-    --panel: oklch(96.02% 0.00353 248.565);
+    --panel: oklch(98.686% 0.0026 230.456);
     --card: oklch(100% 0.00011 271.152);
     --text: oklch(15.513% 0.0087 274.277);
-    --text-secondary: oklch(35.541% 0.11105 262.519);
+    --text-secondary: oklch(51.48% 0.00691 240.179);
 
     --primary: oklch(53.837% 0.25322 294.09);
     --accent: oklch(74.77% 0.16379 48.583);
@@ -60,10 +71,10 @@ p {
 
 .dark {
     --background: oklch(24.116% 0.01777 255.725);
-    --panel: oklch(0.2412 0.0177 255.69);
+    --panel: oklch(27.031% 0.01727 255.705);
     --card: oklch(24.116% 0.01777 255.725);
     --text: oklch(0.9602 0.0034 247.86);
-    --text-secondary: oklch(96.02% 0.00353 248.565)
+    --text-secondary: oklch(66.617% 0.00922 236.907);
 
     --primary: oklch(53.837% 0.25322 294.09) ;
     --accent: oklch(74.77% 0.16379 48.583);
