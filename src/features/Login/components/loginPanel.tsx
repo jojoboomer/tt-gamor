@@ -1,7 +1,8 @@
 import Button from "@/components/ui/buttom";
 import Divider from "@/components/ui/divider";
-import { Discord } from "../../../components/icons/discord";
-import { Google } from "../../../components/icons/google";
+import { Discord } from "@components/icons/discord";
+import { Google } from "@components/icons/google";
+import { Link } from "react-router";
 import LoginForm from "./loginForm";
 
 const LoginPanel = () => {
@@ -31,12 +32,9 @@ const LoginPanel = () => {
         <div className="text-center text-sm">
           <span className="text-text-secondary">
             ¿Don't have account?{" "}
-            <a
-              href="/register"
-              className="dark:text-accent text-accent hover:text-accent/70 font-semibold transition-colors duration-200"
-            >
-              Sign up now
-            </a>
+            <Button variant="text" size="sm" className="text-primary hover:text-primary/70 font-semibold">
+              <Link to="/register">Sign up now</Link>
+            </Button>
           </span>
         </div>
       </div>

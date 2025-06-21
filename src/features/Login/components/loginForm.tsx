@@ -3,7 +3,7 @@ import Input from "@/components/ui/input";
 import { useFormik } from "formik";
 import { Eye, EyeOff, Mail } from "lucide-react";
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import * as Yup from "yup";
 import useAuthenticationStore from "../store/auth.store";
 
@@ -90,12 +90,13 @@ const LoginForm = () => {
           <input type="checkbox" className="size-4" />
           <span>Remember me</span>
         </label>
-        <a
-          href="/password-reset"
-          className="text-primary hover:brightness-150 transition-colors duration-200"
+        <Button
+          variant="text"
+          size="sm"
+          className="text-primary hover:text-primary/70 font-semibold"
         >
-          ¿Forgot your password?
-        </a>
+          <Link to="/password-reset">¿Forgot your password?</Link>
+        </Button>
       </div>
 
       <div className="w-full flex justify-center">
