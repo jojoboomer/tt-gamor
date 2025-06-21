@@ -1,7 +1,7 @@
 import useGamorStore, { type Theme } from "@/store/store";
+import Button from "@components/ui/buttom";
+import Menu from "@components/ui/menu";
 import { Computer, Lightbulb, Moon, Sun } from "lucide-react";
-import Button from "./ui/buttom";
-import Menu from "./ui/menu";
 
 type MenuItem = {
   label: string;
@@ -39,7 +39,7 @@ const ThemeMenuOption = ({opt, handleClose}: {opt: MenuItem, handleClose: () => 
   );
 };
 
-const ThemeToggle = () => {
+const ThemeMenu = () => {
   return (
       <Menu
         trigger={
@@ -51,4 +51,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default ThemeMenu;
