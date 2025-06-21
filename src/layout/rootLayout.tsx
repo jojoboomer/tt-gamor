@@ -1,9 +1,19 @@
-import useGamorStore from "@/store/store";
+import useAuthenticationStore from "@/features/Login/store/auth.store";
+import useGamorStore from "@store/ui.store";
 import { useEffect } from "react";
-import { Outlet } from "react-router";
+import { Outlet, useNavigate } from "react-router";
 
 const RootLayout = () => {
   const { theme } = useGamorStore();
+  const { session } = useAuthenticationStore();
+  const navigation = useNavigate()
+
+  useEffect(() => {
+    console.log(session);
+    if (!session) {
+      navigation("/login");
+    } 
+  }, [theme]);
 
    useEffect(() => {
     let applied = theme;
