@@ -19,8 +19,7 @@ const Header = () => {
         {navItems.map((item) => (
           <Link to={item.href} key={item.name}>
             <Button
-              color="default"
-              variant="link"
+              variant="text"
               size="md"
               className={`font-medium ${
                 currentPage === item.href ? "text-primary dark:text-accent" : "hover:text-primary dark:hover:text-accent"
