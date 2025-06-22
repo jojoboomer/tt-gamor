@@ -1,6 +1,6 @@
 import Button from "@/components/ui/buttom";
 import { cn } from "@/lib/utils";
-import useGamorStore from "@store/ui.store";
+import useGamorStore from "@/store/main.store";
 import { Moon, Sun } from "lucide-react";
 
 const ThemeToggle = () => {

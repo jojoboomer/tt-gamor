@@ -1,3 +1,4 @@
+import mockData from "@/data/game_platform_events_mock.json";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
@@ -14,7 +15,7 @@ interface Actions {
 }
 
 const initialState: State = {
-  data: [],
+  data: mockData,
   theme: "system",
 };
 

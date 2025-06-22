@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/dropdown";
 import { createInitialsAvatar } from "@/lib/utils";
 import useAuthenticationStore from "@/store/auth.store";
-import useGamorStore from "@/store/ui.store";
+import useGamorStore from "@/store/main.store";
 import { LogOut, Moon, Sun } from "lucide-react";
 import { useNavigate } from "react-router";
 

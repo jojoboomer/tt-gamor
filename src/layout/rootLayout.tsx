@@ -1,6 +1,6 @@
 import GameModal from "@/features/Home/components/gameModal";
+import useGamorStore from "@/store/main.store";
 import { ModalProvider } from "@/store/modal.context";
-import useGamorStore from "@store/ui.store";
 import { useEffect } from "react";
 import { Outlet } from "react-router";
 
