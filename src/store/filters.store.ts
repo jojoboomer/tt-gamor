@@ -13,7 +13,7 @@ export type Game = {
   category_id: string;
 };
 
-type Filters = {
+export type Filters = {
   game: Game | null;
   platform: Platform;
 };
