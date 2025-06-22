@@ -14,7 +14,7 @@ const buttonVariants = cva(
           "bg-primary text-white hover:bg-primary/70 shadow ",
         text:
           "hover:text-text/70 text-text !px-1",
-        link: "text-primary underline-offset-4 hover:underline",
+        link: "text-white dark:text-black underline-offset-4 hover:underline !px-1",
       },
       size: {
         sm: "h-8 rounded-md gap-1.5 px-3",
