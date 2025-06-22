@@ -1,11 +1,11 @@
 import Button from "@/components/ui/buttom";
 import Input from "@/components/ui/input";
+import useAuthenticationStore from "@store/auth.store";
 import { useFormik } from "formik";
 import { Eye, EyeOff, Mail } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import * as Yup from "yup";
-import useAuthenticationStore from "../store/auth.store";
 
 const LoginForm = () => {
   const [showPassword, setShowPassword] = useState(false);
