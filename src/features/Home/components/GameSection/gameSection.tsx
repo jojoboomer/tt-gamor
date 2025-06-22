@@ -1,22 +1,28 @@
-import Soldier from "@/assets/soldier3.webp";
-import useFiltersStore from "@/store/filters.store";
+import { cn } from "@/lib/utils";
+import Soldier1 from "@assets/soldier1.webp";
+import Soldier2 from "@assets/soldier2.webp";
 import DigitalClock from "./digitalClock";
 
-const GameSection = () => {
-  const {
-    filters: { game },
-  } = useFiltersStore();
-
+const GameSection = ({ className }: { className?: string }) => {
   return (
-    <div className="relative w-[30%]  flex flex-col bg-primary items-center gap-6 overflow-hidden">
-      <div className="p-10">
-        <div className="text-center">
-          <h2 className="text-white text-lg font-semibold">{game?.name}</h2>
-          <p className="text-sm">Join Live Stream</p>
-        </div>
-        <DigitalClock />
+    <div className={cn(className)}>
+      <div className="text-center space-y-2">
+        <h2 className="text-white text-lg font-semibold">Fornite New Season</h2>
+        <p className="text-sm text-fuchsia-900 dark:text-orange-700 font-semibold">
+          Join Live Stream
+        </p>
       </div>
-      <img src={Soldier} alt="cod soldier" className="absolute inset-0" />
+      <DigitalClock />
+      <img
+        src={Soldier1}
+        alt="fornite soldier"
+        className="h-4/5 dark:hidden block"
+      />
+      <img
+        src={Soldier2}
+        alt="cod soldier"
+        className="h-4/5 hidden dark:block"
+      />
     </div>
   );
 };

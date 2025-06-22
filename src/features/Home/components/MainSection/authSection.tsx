@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import Button from "@components/ui/buttom";
+import Decoration from "../decoration";
 
 interface Props extends React.ComponentProps<"button"> {
   className?: string;
@@ -17,14 +18,17 @@ const CustomAccountButton = ({ className, ...props }: Props) => {
   );
 };
 
-const AuthSection = () => {
+const AuthSection = ({ className }: { className?: string }) => {
   return (
-    <div className="flex-1 p-10 flex flex-col gap-10 h-full justify-center">
-      <div className="w-full flex items-center">
-        <h1 className="w-min font-semibold">
+    <div className={cn(className)}>
+      <div className="relative ">
+        <h1 className="w-min font-semibold relative z-10">
           start <span className="text-accent dark:text-primary">streaming</span>{" "}
           games differently
         </h1>
+        <Decoration className="stroke-accent dark:stroke-primary absolute left-0 bottom-12 opacity-50 " />
+        <Decoration className="stroke-accent dark:stroke-primary absolute left-0 bottom-4 opacity-50 " />
+        <Decoration className="stroke-accent dark:stroke-primary absolute left-0 -bottom-4 opacity-50 " />
       </div>
       <p>
         gamor now has{" "}
