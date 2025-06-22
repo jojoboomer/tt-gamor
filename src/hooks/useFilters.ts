@@ -13,7 +13,10 @@ export const useFilteredEvents = () => {
         (entry.platform === filters.platform)
       );
     });
-    setResults(filtered[0]['events']);
+
+    if( filtered.length > 0) {
+      setResults(filtered[0]['events']);
+    }
   };
 
   useEffect(() => {
