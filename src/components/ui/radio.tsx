@@ -1,33 +1,52 @@
 interface Props {
   options: { label: string; value: string }[];
-  name: string;
   selectedOption: string;
   onChangeOption: (value: string) => void;
+  className?: string;
 }
 
-const Radio = ({ options, selectedOption, onChangeOption, name }: Props) => {
+const Radio = ({ options, selectedOption, onChangeOption,className }: Props) => {
+
+  const getGliderPosition = () => {
+    const activeIndex = options.findIndex((tab) => tab.value === selectedOption)
+    return `translateX(${activeIndex * 100}%)`
+  }
+
   return (
-    <div className="flex flex-wrap gap-2 rounded-4xl select-none p-1">
-      {options.map((option) => (
-        <label
-          key={option.value}
-          className="flex rounded-4xl"
-        >
-          <input
-            type="radio"
-            value={option.value}
-            name={name}
-            checked={selectedOption === option.value}
-            onChange={() => onChangeOption(option.value)}
-            className="peer hidden"
-          />
-          <span className="text-sm font-semibold text-gray-700 peer-hover:cursor-pointer peer-checked:text-black tracking-normal peer-checked:bg-neutral px-4 py-2 rounded-4xl transition duration-300 ease-in-out">
-            {option.label}
-          </span>
-        </label>
-      ))}
+    <div className={`inline-block text-xs text-text/80 rounded-4xl dark:bg-card p-1 ${className}`}>
+      <div className="relative flex">
+        {options.map((option) => (
+          <div key={option.value} className="relative z-10">
+            <input
+              type="radio"
+              id={option.value}
+              checked={selectedOption === option.value}
+              onChange={() => onChangeOption(option.value)}
+              className="sr-only"
+            />
+            <label
+              htmlFor={option.value}
+              className={`
+                relative flex items-center justify-center h-[40px] w-[100px] 
+                 font-medium rounded-full cursor-pointer
+                transition-colors duration-150 ease-in
+                ${selectedOption === option.value ? "text-text" : ""}
+              `}
+            >
+              {option.label}
+            </label>
+          </div>
+        ))}
+
+        <div
+          className="absolute z-0 h-[40px] w-[100px] bg-neutral rounded-4xl transition-transform duration-[250ms] ease-out"
+          style={{
+            transform: getGliderPosition(),
+          }}
+        />
+      </div>
     </div>
-  );
+  )
 };
 
 export default Radio;
