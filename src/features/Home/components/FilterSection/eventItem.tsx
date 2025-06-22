@@ -1,10 +1,9 @@
 import Button from "@/components/ui/buttom";
-import type { Event as EventOption } from "@store/filters.store";
 import { Plus } from "lucide-react";
 
 type EventItemProps = {
   index: number;
-  item: EventOption;
+  item: StreamEvent;
   onClick: () => void;
 };
 

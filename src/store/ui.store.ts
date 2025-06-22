@@ -3,9 +3,8 @@ import { persist } from "zustand/middleware";
 
 const storageKey = "gamor-store";
 
-export type Theme = "dark" | "light" | "system";
-
 interface State {
+  data: StreamData[];
   theme: Theme;
 }
 
@@ -15,6 +14,7 @@ interface Actions {
 }
 
 const initialState: State = {
+  data: [],
   theme: "system",
 };
 

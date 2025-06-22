@@ -4,19 +4,6 @@ import { persist } from "zustand/middleware";
 
 const storageKey = "gamor-store";
 
-type LoginData = {
-  email: string;
-  password: string;
-};
-
-type User = {
-  email: string;
-  password: string;
-  username: string;
-  fullName: string;
-  role: string;
-};
-
 interface State {
   user: User | null;
   session: { user: User; token: string } | null;
