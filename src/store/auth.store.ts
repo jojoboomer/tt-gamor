@@ -13,6 +13,7 @@ type User = {
   email: string;
   password: string;
   username: string;
+  fullName: string;
   role: string;
 };
 
