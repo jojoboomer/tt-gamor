@@ -77,7 +77,7 @@
   },
   {
     "game_id": "509658",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "f48bc897-116b-44a5-90a7-7f9f6a24e635",
@@ -153,7 +153,7 @@
   },
   {
     "game_id": "509658",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "033c2c04-109d-433a-adab-033e076c3722",
@@ -279,7 +279,7 @@
   },
   {
     "game_id": "1826300051",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "4ce2e811-7461-4da3-a953-a9df050b35ea",
@@ -375,7 +375,7 @@
   },
   {
     "game_id": "1826300051",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "acd64101-994b-4523-8fd0-c3f816c94d6b",
@@ -457,7 +457,7 @@
   },
   {
     "game_id": "21779",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "baba0632-cdc2-47b6-984b-f39ce59ab703",
@@ -538,7 +538,7 @@
   },
   {
     "game_id": "21779",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "4ad55389-0f67-4bc7-a11e-093bf1cbd33c",
@@ -691,7 +691,7 @@
   },
   {
     "game_id": "32982",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "b56f038d-fe04-4149-8c66-f118ea6f298e",
@@ -782,7 +782,7 @@
   },
   {
     "game_id": "32982",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "3f61e13a-fb87-475e-87c3-76b421f37c6f",
@@ -918,7 +918,7 @@
   },
   {
     "game_id": "33214",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "d7accdfc-ab45-4755-bfb8-c6c97af42aff",
@@ -970,7 +970,7 @@
   },
   {
     "game_id": "33214",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "071628ff-e9ea-4388-900a-9fb1927b2b43",
@@ -1111,7 +1111,7 @@
   },
   {
     "game_id": "1362102608",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "14aa89c9-93cf-4e2b-ac21-7f249521753a",
@@ -1151,7 +1151,7 @@
   },
   {
     "game_id": "1362102608",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "0fc77282-0a05-42d3-8818-e21faf84f324",
@@ -1323,7 +1323,7 @@
   },
   {
     "game_id": "509672",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "98437331-8a70-4d40-8196-8e94cea88802",
@@ -1397,7 +1397,7 @@
   },
   {
     "game_id": "509672",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "a5600a13-f9a9-44a8-83dc-a5149ca4d68f",
@@ -1487,7 +1487,7 @@
   },
   {
     "game_id": "460630",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "1e4631b9-2b21-4a7b-b04f-2645d9ab56fd",
@@ -1527,7 +1527,7 @@
   },
   {
     "game_id": "460630",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "931b541e-7ad5-425e-8ef5-c5b29b978da4",
@@ -1629,7 +1629,7 @@
   },
   {
     "game_id": "1264310518",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "126e9da1-3d4e-4252-9317-f6f59e70c892",
@@ -1664,7 +1664,7 @@
   },
   {
     "game_id": "1264310518",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "23834efd-956a-405c-8752-de264da1f7fa",
@@ -1846,7 +1846,7 @@
   },
   {
     "game_id": "32399",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "426cb394-eef2-411d-aca7-ab3fb540de06",
@@ -1886,7 +1886,7 @@
   },
   {
     "game_id": "32399",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "448f8ad8-d38b-49af-98c1-2c77092149be",
@@ -2027,7 +2027,7 @@
   },
   {
     "game_id": "491487",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "795ddc91-e592-44d2-8523-a19a08d84e4f",
@@ -2067,7 +2067,7 @@
   },
   {
     "game_id": "491487",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "8e6982ce-5db3-49e3-8b96-5bd8b7e92fbc",
@@ -2191,7 +2191,7 @@
   },
   {
     "game_id": "516575",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "288632b3-cadb-4b70-9f2a-18209b74e122",
@@ -2226,7 +2226,7 @@
   },
   {
     "game_id": "516575",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "46293484-3848-47f6-b75a-2e4f84e1da13",
@@ -2352,7 +2352,7 @@
   },
   {
     "game_id": "512710",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "5c79dbc2-76d5-485b-b7db-4b7bb8118089",
@@ -2431,7 +2431,7 @@
   },
   {
     "game_id": "512710",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "ed53af7c-1cf3-4323-a03d-39f4e53ea14c",
@@ -2628,7 +2628,7 @@
   },
   {
     "game_id": "511224",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "1f027674-6a70-4ece-8719-0217e758f0df",
@@ -2673,7 +2673,7 @@
   },
   {
     "game_id": "511224",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "cced1cfc-cdd4-4d9d-956f-059f181687a8",
@@ -2802,7 +2802,7 @@
   },
   {
     "game_id": "27471",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "9f8529d1-0c7d-4605-bd53-b13b207c4750",
@@ -2864,7 +2864,7 @@
   },
   {
     "game_id": "27471",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "39c266a6-a635-4802-bfba-4d973afbf2c6",
@@ -2985,7 +2985,7 @@
   },
   {
     "game_id": "515025",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "bc8c6a9f-969a-4051-ad5f-b79b69d10923",
@@ -3020,7 +3020,7 @@
   },
   {
     "game_id": "515025",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "1a44779f-9de4-4213-a5ab-5eac2e18ecc8",
@@ -3167,7 +3167,7 @@
   },
   {
     "game_id": "29307",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "7dfde474-e302-4dfd-8119-150c60a57cbd",
@@ -3236,7 +3236,7 @@
   },
   {
     "game_id": "29307",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "89cbe868-4e99-49ec-94de-711d289f0ed6",
@@ -3423,7 +3423,7 @@
   },
   {
     "game_id": "29595",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "7f19c614-d3a7-4daa-ba18-a913cc11c117",
@@ -3470,7 +3470,7 @@
   },
   {
     "game_id": "29595",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "7d38d87e-e939-4933-91da-8af2f9a52d7d",
@@ -3630,7 +3630,7 @@
   },
   {
     "game_id": "18122",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "09ae3546-bb72-454a-b35f-d88732fc6ff0",
@@ -3709,7 +3709,7 @@
   },
   {
     "game_id": "18122",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "71e29fc9-b9e7-4678-b812-2d5bc2af9df7",
@@ -3838,7 +3838,7 @@
   },
   {
     "game_id": "114524791",
-    "platform": "martch",
+    "platform": "match",
     "events": [
       {
         "id": "227bf596-71e7-46c2-a71e-2cbb2997ed1b",
@@ -3924,7 +3924,7 @@
   },
   {
     "game_id": "114524791",
-    "platform": "streams",
+    "platform": "stream",
     "events": [
       {
         "id": "2ea2ca0d-b977-483f-9d4f-4a1da18c3a49",
