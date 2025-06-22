@@ -3,6 +3,7 @@
     {
       "id": 1,
       "username": "gamefan123",
+      "fullName": "Pedro Pascal",
       "email": "user1@example.com",
       "password": "Welcome1",
       "role": "viewer",
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "username": "streamlover",
+      "fullName": "João Silva",
       "email": "user2@example.com",
       "password": "Stream456",
       "role": "moderator",
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "username": "esportspro",
+      "fullName": "Carlos Santos",
       "email": "user3@example.com",
       "password": "Match7890",
       "role": "viewer",
@@ -27,6 +30,7 @@
     {
       "id": 4,
       "username": "admin",
+      "fullName": "Admin",
       "email": "admin@gamor.com",
       "password": "admin1",
       "role": "admin",
@@ -35,6 +39,7 @@
     {
       "id": 5,
       "username": "newviewer",
+      "fullName": "Andres Iniesta",
       "email": "user5@example.com",
       "password": "ABC123",
       "role": "viewer",

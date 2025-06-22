@@ -410,43 +410,7 @@
         {"username": "SypherPK", "is_streamer": true, "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/sypherpk-profile_image-5e3b6b5a13e2e2f8-300x300.png"}
       ]
     }
-  ],
-
-  "categories": [
-    {
-      "id": 1,
-      "name": "Just Chatting",
-      "viewers": 250000,
-      "box_art": "https://static-cdn.jtvnw.net/ttv-boxart/509658-{width}x{height}.jpg",
-      "tags": ["IRL"]
-    },
-    {
-      "id": 2,
-      "name": "Valorant",
-      "viewers": 180000,
-      "box_art": "https://static-cdn.jtvnw.net/ttv-boxart/516575-{width}x{height}.jpg",
-      "tags": ["FPS", "Shooter"]
-    },
-    {
-      "id": 3,
-      "name": "Minecraft",
-      "viewers": 145000,
-      "box_art": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-{width}x{height}.jpg",
-      "tags": ["Adventure", "Sandbox"]
-    },
-    {
-      "id": 4,
-      "name": "Call of Duty: Warzone",
-      "viewers": 120000,
-      "box_art": "https://static-cdn.jtvnw.net/ttv-boxart/512710-{width}x{height}.jpg",
-      "tags": ["FPS", "Battle Royale"]
-    },
-    {
-      "id": 5,
-      "name": "Apex Legends",
-      "viewers": 95000,
-      "box_art": "https://static-cdn.jtvnw.net/ttv-boxart/511224-{width}x{height}.jpg",
-      "tags": ["FPS", "Battle Royale"]
-    }
   ]
+
+  
 }

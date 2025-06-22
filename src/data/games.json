@@ -1,0 +1,156 @@
+{
+  "categories": [
+    { "id": "moba", "name": "MOBA" },
+    { "id": "shooter", "name": "Shooter" },
+    { "id": "battle_royale", "name": "Battle Royale" },
+    { "id": "mmorpg", "name": "MMORPG" },
+    { "id": "casual", "name": "Casual / IRL" },
+    { "id": "racing", "name": "Racing" },
+    { "id": "horror", "name": "Survival / Horror" },
+    { "id": "sandbox", "name": "Sandbox / Creativo" },
+    { "id": "card", "name": "Card Game" },
+    { "id": "action", "name": "Acción / Aventura" }
+  ],
+  "games": [
+    {
+      "id": "509658",
+      "name": "Just Chatting",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/509658-800x600.jpg",
+      "igdb_id": "",
+      "category_id": "casual"
+    },
+    {
+      "id": "1826300051",
+      "name": "Mario Kart World",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/1826300051_IGDB-800x600.jpg",
+      "igdb_id": "338067",
+      "category_id": "racing"
+    },
+    {
+      "id": "21779",
+      "name": "League of Legends",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/21779-800x600.jpg",
+      "igdb_id": "115",
+      "category_id": "moba"
+    },
+    {
+      "id": "32982",
+      "name": "Grand Theft Auto V",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-800x600.jpg",
+      "igdb_id": "1020",
+      "category_id": "action"
+    },
+    {
+      "id": "33214",
+      "name": "Fortnite",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/33214-800x600.jpg",
+      "igdb_id": "1905",
+      "category_id": "battle_royale"
+    },
+    {
+      "id": "1362102608",
+      "name": "REMATCH",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/1362102608_IGDB-800x600.jpg",
+      "igdb_id": "325588",
+      "category_id": "action"
+    },
+    {
+      "id": "509672",
+      "name": "IRL",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/509672-800x600.jpg",
+      "igdb_id": "",
+      "category_id": "casual"
+    },
+    {
+      "id": "460630",
+      "name": "Tom Clancy's Rainbow Six Siege X",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/460630-800x600.jpg",
+      "igdb_id": "7360",
+      "category_id": "shooter"
+    },
+    {
+      "id": "1264310518",
+      "name": "Marvel Rivals",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-800x600.jpg",
+      "igdb_id": "294041",
+      "category_id": "shooter"
+    },
+    {
+      "id": "32399",
+      "name": "Counter-Strike",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/32399-800x600.jpg",
+      "igdb_id": "",
+      "category_id": "shooter"
+    },
+    {
+      "id": "491487",
+      "name": "Dead by Daylight",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/491487-800x600.jpg",
+      "igdb_id": "18866",
+      "category_id": "horror"
+    },
+    {
+      "id": "516575",
+      "name": "VALORANT",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/516575-800x600.jpg",
+      "igdb_id": "126459",
+      "category_id": "shooter"
+    },
+    {
+      "id": "512710",
+      "name": "Call of Duty: Warzone",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/512710-800x600.jpg",
+      "igdb_id": "131800",
+      "category_id": "battle_royale"
+    },
+    {
+      "id": "511224",
+      "name": "Apex Legends",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/511224-800x600.jpg",
+      "igdb_id": "114795",
+      "category_id": "battle_royale"
+    },
+    {
+      "id": "27471",
+      "name": "Minecraft",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-800x600.jpg",
+      "igdb_id": "135400",
+      "category_id": "sandbox"
+    },
+    {
+      "id": "515025",
+      "name": "Overwatch 2",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/515025-800x600.jpg",
+      "igdb_id": "125174",
+      "category_id": "shooter"
+    },
+    {
+      "id": "29307",
+      "name": "Path of Exile",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-800x600.jpg",
+      "igdb_id": "1911",
+      "category_id": "mmorpg"
+    },
+    {
+      "id": "29595",
+      "name": "Dota 2",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/29595-800x600.jpg",
+      "igdb_id": "",
+      "category_id": "moba"
+    },
+    {
+      "id": "18122",
+      "name": "World of Warcraft",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/18122-800x600.jpg",
+      "igdb_id": "123",
+      "category_id": "mmorpg"
+    },
+    {
+      "id": "114524791",
+      "name": "Shadowverse: Worlds Beyond",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/114524791_IGDB-800x600.jpg",
+      "igdb_id": "339985",
+      "category_id": "card"
+    }
+  ]
+}
