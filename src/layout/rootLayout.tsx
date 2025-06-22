@@ -1,20 +1,11 @@
 import GameModal from "@/features/Home/components/gameModal";
-import useAuthenticationStore from "@/store/auth.store";
 import { ModalProvider } from "@/store/modal.context";
 import useGamorStore from "@store/ui.store";
 import { useEffect } from "react";
-import { Outlet, useNavigate } from "react-router";
+import { Outlet } from "react-router";
 
 const RootLayout = () => {
   const { theme } = useGamorStore();
-  const { session } = useAuthenticationStore();
-  const navigation = useNavigate();
-
-  useEffect(() => {
-    if (!session) {
-      navigation("/login");
-    }
-  }, [theme]);
 
   useEffect(() => {
     let applied = theme;
