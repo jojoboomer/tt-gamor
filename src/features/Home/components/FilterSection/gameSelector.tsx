@@ -15,7 +15,7 @@ const GameSelector = () => {
   }, [resetFilters, resetResults]);
 
   return (
-    <div className="w-full border-b-[1px] border-border pb-3 flex items-center justify-between">
+    <div className="w-full border-b-[1px] border-border pb-2 flex items-center justify-between">
       <span> {filters.game && filters.game.name} </span>
       <div>
         <Button variant="text"  onClick={handleOpenModal}>

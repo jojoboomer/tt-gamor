@@ -28,6 +28,7 @@ const FilterSection = ({ className }: { className?: string }) => {
         <div className="relative h-clamp-sm overflow-hidden flex flex-col items-center flex-1 min-h-0 w-full bg-card shadow-lg px-6 py-3 rounded-2xl ">
           <GameSelector />
           <EventList results={results} />
+          <div className="absolute bottom-0 left-0 w-full h-30 bg-gradient-to-t from-panel via-panel/80 to-transparent pointer-events-none"></div>
           <Button
             size="lg"
             className="absolute bottom-4 rounded-md w-[90%]"

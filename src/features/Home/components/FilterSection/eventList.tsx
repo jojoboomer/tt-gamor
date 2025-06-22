@@ -5,16 +5,15 @@ const EventList = ({ results }) => {
   const handleAdd = useCallback(() => console.log(), []);
 
   return (
-    <ul className="relative w-full h-full py-3 space-y-2  ">
+    <ul className=" w-full h-full py-3 space-y-2 overflow-y-auto no-scrollbar flex-1 pb-20">
       {results.map((event, index) => (
         <EventItem
           key={index.id}
           index={index + 1}
-          name={event.name}
+          item={event}
           onClick={handleAdd}
         />
       ))}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-panel via-panel/80 to-transparent pointer-events-none"></div>
     </ul>
   );
 };
