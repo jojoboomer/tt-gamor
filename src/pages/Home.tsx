@@ -1,7 +1,7 @@
-import AuthSection from "@/features/Home/components/authSection";
-import FilterSection from "@/features/Home/components/filterSection";
-import GameSection from "@/features/Home/components/gameSection";
-import Header from "@/features/Home/components/header";
+import FilterSection from "@/features/Home/components/FilterSection/filterSection";
+import GameSection from "@/features/Home/components/GameSection/gameSection";
+import Header from "@/features/Home/components/Header/header";
+import AuthSection from "@/features/Home/components/MainSection/authSection";
 
 const Home = () => {
   return (
