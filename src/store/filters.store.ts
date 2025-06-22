@@ -13,6 +13,19 @@ export type Game = {
   category_id: string;
 };
 
+export type Streamer = {
+  id: string;
+  username: string;
+  avatar: string;
+}
+
+export type Event = {
+  id: string;
+  name: string;
+  date: string;
+  streamers: Streamer[];
+}
+
 export type Filters = {
   game: Game | null;
   platform: Platform;
@@ -20,6 +33,7 @@ export type Filters = {
 
 interface State {
   filters: Filters;
+  results: Event[];
 }
 
 interface Actions {
@@ -27,6 +41,8 @@ interface Actions {
   setPlatform: (platform: Platform) => void;
   resetFilters: () => void;
   setFilters: (filters: Partial<Filters>) => void;
+  setResults: (results: Event[]) => void; // nuevo
+  resetResults: () => void; // nuevo
 }
 
 const initialState: State = {
@@ -34,6 +50,7 @@ const initialState: State = {
     game: null,
     platform: "party",
   },
+  results: [],
 };
 
 const useFiltersStore = create<State & Actions>()(
@@ -48,6 +65,8 @@ const useFiltersStore = create<State & Actions>()(
         set({
           filters: { ...get().filters, ...filters },
         }),
+      setResults: (results) => set({ results }),
+      resetResults: () => set({ results: [] }),
     }),
     {
       name: storageKey,

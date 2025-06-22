@@ -1,17 +1,20 @@
 import Button from "@/components/ui/buttom";
-import { useFilteredEvents } from "@/hooks/useFilters";
+import { useSearchEvents } from "@/hooks/useSearchEvents";
+import { cn } from "@/lib/utils";
+import useFiltersStore from "@/store/filters.store";
 import { useCallback } from "react";
 import EventList from "./eventList";
 import GameSelector from "./gameSelector";
 import PlatformSelector from "./platformSelector";
 
-const FilterSection = () => {
-  const { results, searchGame } = useFilteredEvents();
+const FilterSection = ({ className }: { className?: string }) => {
+  const { searchGame } = useSearchEvents();
+  const { results } = useFiltersStore();
 
   const handleSearch = useCallback(() => searchGame(), [searchGame]);
 
   return (
-    <div className="flex-1 py-10 px-12 flex flex-col gap-6 h-full overflow-hidden">
+    <div className={cn(className)}>
       <div className="space-y-4 w-full">
         <h3 className="font-semibold">
           <span className="text-lg text-gray-400">01.</span> Choose Platform
