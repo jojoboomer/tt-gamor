@@ -1,0 +1,3960 @@
+[
+  {
+    "game_id": "509658",
+    "platform": "party",
+    "events": [
+      {
+        "id": "26ddefa7-56d8-49b6-83e1-4d070c4d6ae1",
+        "name": "Event 696",
+        "date": "2025-06-28T12:35:17.901598Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      },
+      {
+        "id": "375e8b3a-2619-43be-8094-1602df6dc751",
+        "name": "Event 737",
+        "date": "2025-06-23T12:35:17.901738Z",
+        "streamers": [
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "0ab9f17c-5a77-40dc-a27c-eebf4a288b1b",
+        "name": "Event 230",
+        "date": "2025-06-28T12:35:17.902693Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      },
+      {
+        "id": "5e56b467-83b4-45ee-9f78-50dea465aae3",
+        "name": "Event 497",
+        "date": "2025-06-22T12:35:17.902759Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "d43a7194-458c-440e-90ea-ee9a86cec675",
+        "name": "Event 704",
+        "date": "2025-06-24T12:35:17.902800Z",
+        "streamers": [
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "509658",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "f48bc897-116b-44a5-90a7-7f9f6a24e635",
+        "name": "Event 387",
+        "date": "2025-06-28T12:35:17.902842Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "9b75169a-7cc2-4c20-9944-00c565dfa475",
+        "name": "Event 837",
+        "date": "2025-06-23T12:35:17.902882Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "bd6872c0-c050-4cfe-81ff-0fa83be377c1",
+        "name": "Event 641",
+        "date": "2025-06-28T12:35:17.902925Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      },
+      {
+        "id": "bd48a8f0-6900-4956-8ad5-4724b2e1ded0",
+        "name": "Event 907",
+        "date": "2025-06-27T12:35:17.902943Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "10d9be0e-3b5a-45c5-96ff-dd40104ee826",
+        "name": "Event 478",
+        "date": "2025-06-27T12:35:17.902964Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "509658",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "033c2c04-109d-433a-adab-033e076c3722",
+        "name": "Event 640",
+        "date": "2025-06-25T12:35:17.902983Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "bd9b24a6-2ae2-4d10-998c-920660868ffc",
+        "name": "Event 526",
+        "date": "2025-06-24T12:35:17.902996Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          }
+        ]
+      },
+      {
+        "id": "4c4c3068-a07a-4845-99ba-7ba1034d7a67",
+        "name": "Event 357",
+        "date": "2025-06-23T12:35:17.903008Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1826300051",
+    "platform": "party",
+    "events": [
+      {
+        "id": "5272b21d-a4b4-476d-b10e-43961ea9abde",
+        "name": "Event 732",
+        "date": "2025-06-27T12:35:17.903033Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "2a048afa-4ad3-4b71-93be-31bff099b972",
+        "name": "Event 429",
+        "date": "2025-06-22T12:35:17.903045Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "13449f3d-b6bf-4d74-86f5-abb315517f8a",
+        "name": "Event 372",
+        "date": "2025-06-27T12:35:17.903056Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "8ce3d333-9396-4055-a91d-c3b7cce30a42",
+        "name": "Event 127",
+        "date": "2025-06-26T12:35:17.903068Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1826300051",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "4ce2e811-7461-4da3-a953-a9df050b35ea",
+        "name": "Event 507",
+        "date": "2025-06-22T12:35:17.903083Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      },
+      {
+        "id": "87980c90-b931-422b-ae3f-c57d389c4b63",
+        "name": "Event 549",
+        "date": "2025-06-23T12:35:17.903097Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      },
+      {
+        "id": "dc70888a-2708-4d90-ac79-7be056d6d701",
+        "name": "Event 497",
+        "date": "2025-06-28T12:35:17.903113Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      },
+      {
+        "id": "164615b3-74f9-4381-b19d-99e2eb85b2a3",
+        "name": "Event 531",
+        "date": "2025-06-28T12:35:17.903125Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "775778e0-7abf-4315-9236-54250f72a280",
+        "name": "Event 271",
+        "date": "2025-06-29T12:35:17.903289Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1826300051",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "acd64101-994b-4523-8fd0-c3f816c94d6b",
+        "name": "Event 274",
+        "date": "2025-06-27T12:35:17.903330Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "0b3d89a1-9766-47c4-8f44-a6015efc872c",
+        "name": "Event 238",
+        "date": "2025-06-26T12:35:17.903367Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "c21a2f84-0531-4655-89bf-a101b863f2b4",
+        "name": "Event 692",
+        "date": "2025-06-28T12:35:17.903399Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "21779",
+    "platform": "party",
+    "events": [
+      {
+        "id": "57144260-4a62-4bf7-87dc-e40ca8b27eea",
+        "name": "Event 728",
+        "date": "2025-06-24T12:35:17.903437Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "7339e30f-ad5a-4b7d-a157-db3f29da9031",
+        "name": "Event 521",
+        "date": "2025-06-22T12:35:17.903468Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "21779",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "baba0632-cdc2-47b6-984b-f39ce59ab703",
+        "name": "Event 841",
+        "date": "2025-06-26T12:35:17.903503Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "a5a4fb7c-7fe6-4767-8944-bccf1cfc068e",
+        "name": "Event 958",
+        "date": "2025-06-23T12:35:17.903535Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "49d840a4-15a6-4532-ae25-68c37cc5f861",
+        "name": "Event 726",
+        "date": "2025-06-26T12:35:17.903566Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "7083022e-0d45-4e8c-9aab-a4727231521c",
+        "name": "Event 797",
+        "date": "2025-06-22T12:35:17.903600Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "ac3d3fed-3ae8-466d-a605-db82f5387267",
+        "name": "Event 165",
+        "date": "2025-06-22T12:35:17.903630Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "21779",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "4ad55389-0f67-4bc7-a11e-093bf1cbd33c",
+        "name": "Event 508",
+        "date": "2025-06-29T12:35:17.903665Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "30d479c0-0a14-4d8b-a215-9e2fd590e039",
+        "name": "Event 193",
+        "date": "2025-06-27T12:35:17.903696Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "5bf1caca-377a-4574-9c07-f888eae61bfa",
+        "name": "Event 542",
+        "date": "2025-06-25T12:35:17.903729Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      },
+      {
+        "id": "72fccc5b-e7e9-4ce4-a984-22e706b1f2dc",
+        "name": "Event 898",
+        "date": "2025-06-23T12:35:17.903764Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "32982",
+    "platform": "party",
+    "events": [
+      {
+        "id": "5c2a12e0-efe0-4e10-8234-e289b5cbf9d3",
+        "name": "Event 858",
+        "date": "2025-06-28T12:35:17.903800Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "f2cc3bb4-e267-49e4-b0e1-7e5338f89cb0",
+        "name": "Event 956",
+        "date": "2025-06-23T12:35:17.903840Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "de8897a9-0fdf-452c-99c8-266cd7f1e55d",
+        "name": "Event 150",
+        "date": "2025-06-26T12:35:17.903873Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "fc257f25-fcee-4230-9609-c517591d23e0",
+        "name": "Event 901",
+        "date": "2025-06-24T12:35:17.903903Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "32982",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "b56f038d-fe04-4149-8c66-f118ea6f298e",
+        "name": "Event 445",
+        "date": "2025-06-26T12:35:17.903939Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "5585c829-1783-4c58-9699-df648a83ae49",
+        "name": "Event 954",
+        "date": "2025-06-27T12:35:17.903972Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "267c63f9-9a7c-4f1a-b6da-6993200ad91c",
+        "name": "Event 478",
+        "date": "2025-06-24T12:35:17.904004Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "d68191e9-9c79-4d2d-ac02-2b1de96d1344",
+        "name": "Event 177",
+        "date": "2025-06-27T12:35:17.904038Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          }
+        ]
+      },
+      {
+        "id": "a9fb1bd2-cf39-4e63-b55f-277a801b9f3d",
+        "name": "Event 270",
+        "date": "2025-06-22T12:35:17.904070Z",
+        "streamers": [
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "32982",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "3f61e13a-fb87-475e-87c3-76b421f37c6f",
+        "name": "Event 646",
+        "date": "2025-06-26T12:35:17.904107Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      },
+      {
+        "id": "b0915f88-f574-4614-a28e-63e20e97b9d6",
+        "name": "Event 220",
+        "date": "2025-06-25T12:35:17.904121Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "1e5a24d9-a465-4209-aabf-eb6c0e659085",
+        "name": "Event 659",
+        "date": "2025-06-27T12:35:17.904135Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "33214",
+    "platform": "party",
+    "events": [
+      {
+        "id": "b2637e96-977e-424f-ba6e-5f49fac73104",
+        "name": "Event 699",
+        "date": "2025-06-28T12:35:17.904150Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      },
+      {
+        "id": "42836eb6-7eb2-47b2-8dd6-10e1ac2bf58a",
+        "name": "Event 868",
+        "date": "2025-06-26T12:35:17.904162Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "e7ee12e1-079b-4c46-9167-9833160cb7d0",
+        "name": "Event 525",
+        "date": "2025-06-26T12:35:17.904175Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      },
+      {
+        "id": "af0052fd-ba22-4547-8392-02806197fdea",
+        "name": "Event 465",
+        "date": "2025-06-29T12:35:17.904187Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "33214",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "d7accdfc-ab45-4755-bfb8-c6c97af42aff",
+        "name": "Event 712",
+        "date": "2025-06-22T12:35:17.904200Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "319f840d-1e39-4e89-9fd1-3c230ac8631f",
+        "name": "Event 315",
+        "date": "2025-06-25T12:35:17.904234Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "fbae77ce-84c7-4b47-a1f0-ba779adf9d4a",
+        "name": "Event 971",
+        "date": "2025-06-26T12:35:17.904250Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "33214",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "071628ff-e9ea-4388-900a-9fb1927b2b43",
+        "name": "Event 457",
+        "date": "2025-06-22T12:35:17.904269Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "92e28236-8150-4fe3-9569-ec7f34fdd25b",
+        "name": "Event 486",
+        "date": "2025-06-26T12:35:17.904280Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "cba4ea9a-561b-423e-bafa-ccd4984ca887",
+        "name": "Event 574",
+        "date": "2025-06-27T12:35:17.904294Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      },
+      {
+        "id": "0807303d-a27a-4673-89ed-422cda7ae46a",
+        "name": "Event 563",
+        "date": "2025-06-26T12:35:17.904306Z",
+        "streamers": [
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1362102608",
+    "platform": "party",
+    "events": [
+      {
+        "id": "47e30315-0113-41f7-9d10-9187f3946d71",
+        "name": "Event 181",
+        "date": "2025-06-25T12:35:17.904321Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "b9406b9e-d3f1-4173-b2da-1849c979f728",
+        "name": "Event 856",
+        "date": "2025-06-27T12:35:17.904332Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      },
+      {
+        "id": "7e79dd1b-9027-4d86-b943-4c466cbfab30",
+        "name": "Event 623",
+        "date": "2025-06-27T12:35:17.904344Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1362102608",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "14aa89c9-93cf-4e2b-ac21-7f249521753a",
+        "name": "Event 713",
+        "date": "2025-06-22T12:35:17.904357Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "e689d24f-01e2-4814-a7dd-6a1bb33f278e",
+        "name": "Event 658",
+        "date": "2025-06-22T12:35:17.904375Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1362102608",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "0fc77282-0a05-42d3-8818-e21faf84f324",
+        "name": "Event 262",
+        "date": "2025-06-26T12:35:17.904388Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "f7a2d0a4-e9c6-47f7-ae0a-e7f812f87145",
+        "name": "Event 958",
+        "date": "2025-06-25T12:35:17.904401Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "a3d9219d-926e-45ee-9520-bdb887bd89b9",
+        "name": "Event 775",
+        "date": "2025-06-22T12:35:17.904413Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "4f3628d6-9d44-4b45-9dfc-11d38fcc36fe",
+        "name": "Event 357",
+        "date": "2025-06-25T12:35:17.904425Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "510f70c3-2c32-4ef6-b5e9-970c08fd7327",
+        "name": "Event 944",
+        "date": "2025-06-23T12:35:17.904436Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "509672",
+    "platform": "party",
+    "events": [
+      {
+        "id": "194fb3f2-4b4e-4d34-85d0-3139d7d95e8a",
+        "name": "Event 728",
+        "date": "2025-06-24T12:35:17.904449Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "4efa673d-e160-4b5e-9b47-f8fd1fe5046d",
+        "name": "Event 836",
+        "date": "2025-06-29T12:35:17.904461Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "04e5f464-02d3-4bbc-8e49-f298da9424bc",
+        "name": "Event 976",
+        "date": "2025-06-22T12:35:17.904473Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "e2316df0-f39e-48d9-a774-0909d7f3db8f",
+        "name": "Event 309",
+        "date": "2025-06-23T12:35:17.904485Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "5cbd685d-3ca7-4abb-9235-e69aade9f369",
+        "name": "Event 781",
+        "date": "2025-06-27T12:35:17.904502Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "509672",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "98437331-8a70-4d40-8196-8e94cea88802",
+        "name": "Event 523",
+        "date": "2025-06-24T12:35:17.904515Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "9a479dde-3056-483e-ab18-4056ede6489c",
+        "name": "Event 816",
+        "date": "2025-06-28T12:35:17.904527Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "72a3c2f1-53fb-45d2-8727-e84b4a654b14",
+        "name": "Event 651",
+        "date": "2025-06-23T12:35:17.904539Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "ac3beeb8-6b14-4739-8793-972f54fcf444",
+        "name": "Event 721",
+        "date": "2025-06-25T12:35:17.904551Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "509672",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "a5600a13-f9a9-44a8-83dc-a5149ca4d68f",
+        "name": "Event 407",
+        "date": "2025-06-25T12:35:17.904564Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "4ef043af-6882-4c32-9d31-715b612b23d2",
+        "name": "Event 596",
+        "date": "2025-06-28T12:35:17.904577Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "460630",
+    "platform": "party",
+    "events": [
+      {
+        "id": "51b132d6-1ae4-4a7a-a95d-a513ff523c90",
+        "name": "Event 628",
+        "date": "2025-06-26T12:35:17.904591Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "f8b622d6-9bba-44f6-bd7f-fb0f134c3946",
+        "name": "Event 952",
+        "date": "2025-06-26T12:35:17.904602Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "460630",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "1e4631b9-2b21-4a7b-b04f-2645d9ab56fd",
+        "name": "Event 403",
+        "date": "2025-06-29T12:35:17.904616Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "07cec5c1-1644-42fa-ae3c-612846c1a12e",
+        "name": "Event 123",
+        "date": "2025-06-29T12:35:17.904628Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "460630",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "931b541e-7ad5-425e-8ef5-c5b29b978da4",
+        "name": "Event 918",
+        "date": "2025-06-28T12:35:17.904641Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "f05078ce-2c57-4cc7-9cd6-dd372a89a8aa",
+        "name": "Event 592",
+        "date": "2025-06-29T12:35:17.904653Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1264310518",
+    "platform": "party",
+    "events": [
+      {
+        "id": "bcdfb17b-348e-4ebb-854a-46761f899676",
+        "name": "Event 844",
+        "date": "2025-06-28T12:35:17.904666Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "2dc45c31-995a-444b-83d8-88f4166d8ee6",
+        "name": "Event 998",
+        "date": "2025-06-22T12:35:17.904678Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      },
+      {
+        "id": "b5887827-6a4a-4e92-a1f5-7e883cfa3cab",
+        "name": "Event 420",
+        "date": "2025-06-25T12:35:17.904690Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1264310518",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "126e9da1-3d4e-4252-9317-f6f59e70c892",
+        "name": "Event 439",
+        "date": "2025-06-24T12:35:17.904703Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "68796118-1d7b-42cb-82c7-936de283ff07",
+        "name": "Event 197",
+        "date": "2025-06-22T12:35:17.904718Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "1264310518",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "23834efd-956a-405c-8752-de264da1f7fa",
+        "name": "Event 684",
+        "date": "2025-06-28T12:35:17.904731Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "5a375d76-6b66-48de-a71a-b007094c5a57",
+        "name": "Event 807",
+        "date": "2025-06-27T12:35:17.904742Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "0d9f0d22-f205-44f3-896c-3af5a0e9af0d",
+        "name": "Event 609",
+        "date": "2025-06-29T12:35:17.904753Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      },
+      {
+        "id": "229895cf-6bee-4268-a151-8ffa744d8c28",
+        "name": "Event 821",
+        "date": "2025-06-25T12:35:17.904764Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "2e545785-4d08-496d-b546-9e5582008bc8",
+        "name": "Event 919",
+        "date": "2025-06-29T12:35:17.904777Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "32399",
+    "platform": "party",
+    "events": [
+      {
+        "id": "83d31757-6366-41d0-be11-44c78985f67e",
+        "name": "Event 931",
+        "date": "2025-06-26T12:35:17.904791Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "53a04e82-4241-4618-bdf5-4b04c7c8ec3d",
+        "name": "Event 939",
+        "date": "2025-06-27T12:35:17.904803Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "560415a3-0d10-4e6d-a60c-8d2400fbaaf3",
+        "name": "Event 678",
+        "date": "2025-06-29T12:35:17.904815Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      },
+      {
+        "id": "f5d4c132-a748-43b3-9f5f-857716af40d7",
+        "name": "Event 849",
+        "date": "2025-06-27T12:35:17.904826Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "054e9e8d-07b8-4721-aca2-1464d43503e3",
+        "name": "Event 550",
+        "date": "2025-06-23T12:35:17.904837Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "32399",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "426cb394-eef2-411d-aca7-ab3fb540de06",
+        "name": "Event 847",
+        "date": "2025-06-24T12:35:17.904849Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "89546878-b04b-4adb-a64e-3faaa380bf8b",
+        "name": "Event 219",
+        "date": "2025-06-25T12:35:17.904861Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "32399",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "448f8ad8-d38b-49af-98c1-2c77092149be",
+        "name": "Event 171",
+        "date": "2025-06-27T12:35:17.904874Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "37d65059-6507-4d84-af3a-966dbe13cb37",
+        "name": "Event 621",
+        "date": "2025-06-23T12:35:17.904887Z",
+        "streamers": [
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "f4e40168-cde9-4d57-a091-12be7ea32b3c",
+        "name": "Event 924",
+        "date": "2025-06-29T12:35:17.904904Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "17b86b4e-2e18-4501-b7cd-94d0f3a84d35",
+        "name": "Event 272",
+        "date": "2025-06-28T12:35:17.904918Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "62b82f84-ee8b-432f-bea7-3a676d16ef48",
+        "name": "Event 526",
+        "date": "2025-06-28T12:35:17.904930Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "491487",
+    "platform": "party",
+    "events": [
+      {
+        "id": "8c9b395e-ad7a-486b-8816-c7c36f02c729",
+        "name": "Event 604",
+        "date": "2025-06-23T12:35:17.904945Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "29229751-af3c-466e-ae42-24ca32ba78c3",
+        "name": "Event 301",
+        "date": "2025-06-25T12:35:17.904957Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "491487",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "795ddc91-e592-44d2-8523-a19a08d84e4f",
+        "name": "Event 528",
+        "date": "2025-06-29T12:35:17.904970Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "3d087e6d-a274-4dd0-9e15-7128bc44b883",
+        "name": "Event 292",
+        "date": "2025-06-23T12:35:17.904982Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "491487",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "8e6982ce-5db3-49e3-8b96-5bd8b7e92fbc",
+        "name": "Event 964",
+        "date": "2025-06-26T12:35:17.904995Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "68b831e6-20a9-4cd7-8704-a05da333e06d",
+        "name": "Event 259",
+        "date": "2025-06-23T12:35:17.905007Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "516575",
+    "platform": "party",
+    "events": [
+      {
+        "id": "789ddd14-e970-43d2-9fce-0861d08890c0",
+        "name": "Event 200",
+        "date": "2025-06-26T12:35:17.905019Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "65597c69-b4b6-429a-8dd4-fe8205272c0f",
+        "name": "Event 494",
+        "date": "2025-06-24T12:35:17.905031Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      },
+      {
+        "id": "ab586d35-2735-4b1a-9ce1-09c5aa990a43",
+        "name": "Event 108",
+        "date": "2025-06-23T12:35:17.905042Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      },
+      {
+        "id": "50e941fe-8d01-4de1-99ef-1ab5c4f75594",
+        "name": "Event 266",
+        "date": "2025-06-27T12:35:17.905053Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "516575",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "288632b3-cadb-4b70-9f2a-18209b74e122",
+        "name": "Event 564",
+        "date": "2025-06-25T12:35:17.905065Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      },
+      {
+        "id": "73da359c-9bd7-4b2b-97ae-bcff8ac68843",
+        "name": "Event 792",
+        "date": "2025-06-29T12:35:17.905077Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "516575",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "46293484-3848-47f6-b75a-2e4f84e1da13",
+        "name": "Event 315",
+        "date": "2025-06-27T12:35:17.905091Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "457e8851-11e9-4a99-a117-8b186b5d0a61",
+        "name": "Event 320",
+        "date": "2025-06-27T12:35:17.905103Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "512710",
+    "platform": "party",
+    "events": [
+      {
+        "id": "afd57e7c-feb6-47e2-b642-92c09b99e024",
+        "name": "Event 810",
+        "date": "2025-06-27T12:35:17.905116Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "6b6375cb-6551-4eeb-ac39-ffaf88a1bd7c",
+        "name": "Event 842",
+        "date": "2025-06-28T12:35:17.905128Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "6dbc919b-962b-456e-8373-786d29c3ff9c",
+        "name": "Event 621",
+        "date": "2025-06-29T12:35:17.905141Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "81ca9c3c-9585-47bd-9a8c-f1de2584bf40",
+        "name": "Event 898",
+        "date": "2025-06-27T12:35:17.905153Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "e01abbb5-f9b7-4872-958d-ca552d589052",
+        "name": "Event 380",
+        "date": "2025-06-25T12:35:17.905165Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "512710",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "5c79dbc2-76d5-485b-b7db-4b7bb8118089",
+        "name": "Event 209",
+        "date": "2025-06-27T12:35:17.905179Z",
+        "streamers": [
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      },
+      {
+        "id": "17c9eaa7-8fb4-4324-8d42-fd69eeeddc95",
+        "name": "Event 738",
+        "date": "2025-06-24T12:35:17.905191Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "49176dbb-655a-4650-92a9-41d0f3578091",
+        "name": "Event 969",
+        "date": "2025-06-27T12:35:17.905203Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "e93866ee-8115-4648-bed0-57a18f0f41df",
+        "name": "Event 980",
+        "date": "2025-06-25T12:35:17.905214Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "512710",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "ed53af7c-1cf3-4323-a03d-39f4e53ea14c",
+        "name": "Event 708",
+        "date": "2025-06-23T12:35:17.905227Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "1f235e3a-ae81-4e55-a276-41d3d0af3623",
+        "name": "Event 202",
+        "date": "2025-06-27T12:35:17.905239Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "ff124968-41cb-493b-b543-ce1f22ccfc17",
+        "name": "Event 841",
+        "date": "2025-06-24T12:35:17.905250Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      },
+      {
+        "id": "ed239b94-fa4b-48ca-971d-9a3769feedfc",
+        "name": "Event 115",
+        "date": "2025-06-27T12:35:17.905263Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      },
+      {
+        "id": "f112fa0e-f3c9-4542-86d1-5d7db81c3f46",
+        "name": "Event 235",
+        "date": "2025-06-22T12:35:17.905274Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "511224",
+    "platform": "party",
+    "events": [
+      {
+        "id": "46445304-5554-4589-b0e8-15f927a71055",
+        "name": "Event 673",
+        "date": "2025-06-28T12:35:17.905287Z",
+        "streamers": [
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "8a6e2c8f-5f58-44d4-bcc6-d2ef83f3c1fa",
+        "name": "Event 703",
+        "date": "2025-06-24T12:35:17.905299Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      },
+      {
+        "id": "bf1db8b7-a587-4a53-bfb8-49ca4ba75548",
+        "name": "Event 741",
+        "date": "2025-06-29T12:35:17.905311Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "077e0123-0ae8-4c50-b951-3f943128ae5a",
+        "name": "Event 245",
+        "date": "2025-06-25T12:35:17.905323Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "ca457adf-5ac0-4aa7-a3fd-c6d9f3717679",
+        "name": "Event 590",
+        "date": "2025-06-28T12:35:17.905335Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "511224",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "1f027674-6a70-4ece-8719-0217e758f0df",
+        "name": "Event 568",
+        "date": "2025-06-27T12:35:17.905349Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "08432441-1a84-45f6-9abd-e353140375f7",
+        "name": "Event 755",
+        "date": "2025-06-29T12:35:17.905363Z",
+        "streamers": [
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "511224",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "cced1cfc-cdd4-4d9d-956f-059f181687a8",
+        "name": "Event 730",
+        "date": "2025-06-25T12:35:17.905376Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "4ac76d64-07f6-483c-8ae8-5bf409853b42",
+        "name": "Event 700",
+        "date": "2025-06-22T12:35:17.905388Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      },
+      {
+        "id": "246c88e5-e9a9-4269-ae5d-c4c3c3ed78f4",
+        "name": "Event 238",
+        "date": "2025-06-24T12:35:17.905643Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "27471",
+    "platform": "party",
+    "events": [
+      {
+        "id": "6903ad1f-f26d-433f-9f9b-007e7a91dddf",
+        "name": "Event 619",
+        "date": "2025-06-26T12:35:17.905714Z",
+        "streamers": [
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "c35552ad-1c7f-42a5-a397-adf8e3f7eb7f",
+        "name": "Event 976",
+        "date": "2025-06-24T12:35:17.905758Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "1039d80b-9c61-4b49-9f12-9d8d84800ebb",
+        "name": "Event 951",
+        "date": "2025-06-23T12:35:17.905811Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "27471",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "9f8529d1-0c7d-4605-bd53-b13b207c4750",
+        "name": "Event 801",
+        "date": "2025-06-28T12:35:17.905853Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "62886f1c-619d-4a77-9a46-f8a06927d6d1",
+        "name": "Event 841",
+        "date": "2025-06-28T12:35:17.905891Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "d4629346-fa67-4dab-a074-c45f5fb87418",
+        "name": "Event 211",
+        "date": "2025-06-26T12:35:17.905929Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "27471",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "39c266a6-a635-4802-bfba-4d973afbf2c6",
+        "name": "Event 604",
+        "date": "2025-06-24T12:35:17.905968Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "d0fb096d-c0b6-4cdc-9c28-5f4d33748414",
+        "name": "Event 356",
+        "date": "2025-06-27T12:35:17.906006Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "1f9f805a-2379-42ae-b920-020c121d4106",
+        "name": "Event 974",
+        "date": "2025-06-23T12:35:17.906044Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "0d2272f5-f7c3-4e80-84d1-a7293637fbaf",
+        "name": "Event 607",
+        "date": "2025-06-24T12:35:17.906083Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "f2dcac00-48bc-4f35-9542-16aa6d86bae7",
+        "name": "Event 387",
+        "date": "2025-06-26T12:35:17.906134Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "515025",
+    "platform": "party",
+    "events": [
+      {
+        "id": "a9b26e03-64f9-4833-b387-a4d6b4b5a9c5",
+        "name": "Event 156",
+        "date": "2025-06-28T12:35:17.906174Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "78debb3f-b5db-42e0-a7c9-d90a80dd38df",
+        "name": "Event 883",
+        "date": "2025-06-23T12:35:17.906214Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "515025",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "bc8c6a9f-969a-4051-ad5f-b79b69d10923",
+        "name": "Event 202",
+        "date": "2025-06-27T12:35:17.906396Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "75dc200c-de53-4f08-b1f3-2a0df3de4f2d",
+        "name": "Event 704",
+        "date": "2025-06-24T12:35:17.906450Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "515025",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "1a44779f-9de4-4213-a5ab-5eac2e18ecc8",
+        "name": "Event 697",
+        "date": "2025-06-24T12:35:17.906492Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      },
+      {
+        "id": "c7b8962f-76d8-4967-bef4-2e574b4a27d2",
+        "name": "Event 709",
+        "date": "2025-06-28T12:35:17.906524Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "edffda80-073d-4c01-80ed-78f7ee6e7dcd",
+        "name": "Event 283",
+        "date": "2025-06-28T12:35:17.906562Z",
+        "streamers": [
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      },
+      {
+        "id": "755ff269-2edf-44b5-ad90-22878c940ae8",
+        "name": "Event 133",
+        "date": "2025-06-26T12:35:17.906595Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "9df20b01-69ff-4f0c-8135-92651f47f320",
+        "name": "Event 205",
+        "date": "2025-06-29T12:35:17.906627Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "29307",
+    "platform": "party",
+    "events": [
+      {
+        "id": "729d4189-a753-4c7f-b245-4153900e1ee5",
+        "name": "Event 274",
+        "date": "2025-06-22T12:35:17.906692Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "a2693c79-199c-4158-ad8b-f2e526a11f04",
+        "name": "Event 995",
+        "date": "2025-06-23T12:35:17.906750Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "0365c2e7-c27e-4708-a5a9-1038cdd677d8",
+        "name": "Event 433",
+        "date": "2025-06-28T12:35:17.906809Z",
+        "streamers": [
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "acb6c79f-383d-4a1b-8c6e-7fc332ae606b",
+        "name": "Event 551",
+        "date": "2025-06-25T12:35:17.906895Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "1742d916-a336-48f0-b1c4-9a7f74306bc1",
+        "name": "Event 192",
+        "date": "2025-06-27T12:35:17.906935Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "29307",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "7dfde474-e302-4dfd-8119-150c60a57cbd",
+        "name": "Event 148",
+        "date": "2025-06-23T12:35:17.906962Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "19279b7d-21f0-4978-b14c-95dc570f05cf",
+        "name": "Event 439",
+        "date": "2025-06-27T12:35:17.906974Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      },
+      {
+        "id": "f498c362-1dab-4b49-aff5-d71d79a9fdec",
+        "name": "Event 507",
+        "date": "2025-06-27T12:35:17.906986Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      },
+      {
+        "id": "a171aaf6-5a51-4cf4-a7a7-39d2c7c4fbe5",
+        "name": "Event 651",
+        "date": "2025-06-29T12:35:17.907003Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "29307",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "89cbe868-4e99-49ec-94de-711d289f0ed6",
+        "name": "Event 289",
+        "date": "2025-06-23T12:35:17.907028Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "362b79a8-d833-4aaa-9b24-5c5ce538ea50",
+        "name": "Event 473",
+        "date": "2025-06-25T12:35:17.907050Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "c024d8b9-ffbe-4e95-a340-c371bfd19b2e",
+        "name": "Event 680",
+        "date": "2025-06-25T12:35:17.907076Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "6c9e3b45-242e-4fa6-bac6-65d0fd64700f",
+        "name": "Event 489",
+        "date": "2025-06-26T12:35:17.907107Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "9d70065f-9989-4283-a1ed-7ef2360167b7",
+        "name": "Event 829",
+        "date": "2025-06-27T12:35:17.907142Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "29595",
+    "platform": "party",
+    "events": [
+      {
+        "id": "b0c7decb-1592-430d-b931-66cc330cf5ab",
+        "name": "Event 390",
+        "date": "2025-06-22T12:35:17.907178Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          },
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          }
+        ]
+      },
+      {
+        "id": "626d926e-6b9c-458e-82a1-9b13dc499e99",
+        "name": "Event 605",
+        "date": "2025-06-24T12:35:17.907211Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      },
+      {
+        "id": "f8a3991c-b15f-4bc5-91ed-86a5c9a72eaf",
+        "name": "Event 508",
+        "date": "2025-06-25T12:35:17.907242Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      },
+      {
+        "id": "5f78cd40-b764-413e-8856-8604b458d1b7",
+        "name": "Event 241",
+        "date": "2025-06-23T12:35:17.907275Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "a6fc8e7d-7721-45af-982e-40960ced4ff9",
+        "name": "Event 665",
+        "date": "2025-06-28T12:35:17.907293Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "29595",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "7f19c614-d3a7-4daa-ba18-a913cc11c117",
+        "name": "Event 669",
+        "date": "2025-06-27T12:35:17.907340Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "c5239d68-a376-46b7-864f-cae83999438e",
+        "name": "Event 525",
+        "date": "2025-06-24T12:35:17.907378Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "75398246-2eec-46ba-b54c-f4651e480287",
+        "name": "Event 317",
+        "date": "2025-06-29T12:35:17.907400Z",
+        "streamers": [
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "29595",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "7d38d87e-e939-4933-91da-8af2f9a52d7d",
+        "name": "Event 200",
+        "date": "2025-06-23T12:35:17.907418Z",
+        "streamers": [
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "028eea3c-cffd-4a23-a9fa-c62eb13348e4",
+        "name": "Event 125",
+        "date": "2025-06-28T12:35:17.907433Z",
+        "streamers": [
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          },
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          }
+        ]
+      },
+      {
+        "id": "a18e616b-5965-4929-9b17-8e1c3538901c",
+        "name": "Event 140",
+        "date": "2025-06-25T12:35:17.907446Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          }
+        ]
+      },
+      {
+        "id": "11934680-ea98-47b1-bf0c-2440c84becae",
+        "name": "Event 730",
+        "date": "2025-06-23T12:35:17.907458Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "18122",
+    "platform": "party",
+    "events": [
+      {
+        "id": "98bff25f-4135-429f-be97-d8045db443b9",
+        "name": "Event 645",
+        "date": "2025-06-24T12:35:17.907472Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "a2d4def7-1aab-4c8f-8370-876780a8ec94",
+        "name": "Event 858",
+        "date": "2025-06-23T12:35:17.907487Z",
+        "streamers": [
+          {
+            "id": "s8",
+            "username": "streamer8",
+            "avatar": "https://placehold.co/100x100?text=s8"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "d0445e59-d2b9-46bd-b99e-fa68ac59f224",
+        "name": "Event 452",
+        "date": "2025-06-28T12:35:17.907499Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s17",
+            "username": "streamer17",
+            "avatar": "https://placehold.co/100x100?text=s17"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "50685d7f-2595-4e5c-b566-d8277ad29328",
+        "name": "Event 389",
+        "date": "2025-06-26T12:35:17.907521Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      },
+      {
+        "id": "b349550c-9ba1-4853-915d-c47a30093a09",
+        "name": "Event 970",
+        "date": "2025-06-23T12:35:17.907555Z",
+        "streamers": [
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "18122",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "09ae3546-bb72-454a-b35f-d88732fc6ff0",
+        "name": "Event 610",
+        "date": "2025-06-27T12:35:17.907704Z",
+        "streamers": [
+          {
+            "id": "s18",
+            "username": "streamer18",
+            "avatar": "https://placehold.co/100x100?text=s18"
+          },
+          {
+            "id": "s16",
+            "username": "streamer16",
+            "avatar": "https://placehold.co/100x100?text=s16"
+          },
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          }
+        ]
+      },
+      {
+        "id": "752b9d9f-4b3b-4c7c-8fcd-4fd7b564eacf",
+        "name": "Event 163",
+        "date": "2025-06-26T12:35:17.907741Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      },
+      {
+        "id": "02c8006d-d704-46c0-abdd-8c50a84349e8",
+        "name": "Event 875",
+        "date": "2025-06-23T12:35:17.907766Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          },
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      },
+      {
+        "id": "4cbc7d72-acda-464c-893d-2e7d74542d0f",
+        "name": "Event 151",
+        "date": "2025-06-23T12:35:17.907789Z",
+        "streamers": [
+          {
+            "id": "s6",
+            "username": "streamer6",
+            "avatar": "https://placehold.co/100x100?text=s6"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "18122",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "71e29fc9-b9e7-4678-b812-2d5bc2af9df7",
+        "name": "Event 211",
+        "date": "2025-06-28T12:35:17.907810Z",
+        "streamers": [
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s1",
+            "username": "streamer1",
+            "avatar": "https://placehold.co/100x100?text=s1"
+          }
+        ]
+      },
+      {
+        "id": "adfb3ff0-7a40-4c79-95a0-df72bcac106d",
+        "name": "Event 718",
+        "date": "2025-06-24T12:35:17.907824Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          }
+        ]
+      },
+      {
+        "id": "b1d8a78c-7bcb-498a-8ffa-f4751387b5ac",
+        "name": "Event 125",
+        "date": "2025-06-23T12:35:17.907836Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "114524791",
+    "platform": "party",
+    "events": [
+      {
+        "id": "3f2e73c4-094e-46c8-a1e9-11dc16530e1a",
+        "name": "Event 655",
+        "date": "2025-06-25T12:35:17.907849Z",
+        "streamers": [
+          {
+            "id": "s10",
+            "username": "streamer10",
+            "avatar": "https://placehold.co/100x100?text=s10"
+          },
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          }
+        ]
+      },
+      {
+        "id": "5fa25f09-4ac5-4083-8260-5ba6bc27d7aa",
+        "name": "Event 877",
+        "date": "2025-06-25T12:35:17.907860Z",
+        "streamers": [
+          {
+            "id": "s15",
+            "username": "streamer15",
+            "avatar": "https://placehold.co/100x100?text=s15"
+          },
+          {
+            "id": "s14",
+            "username": "streamer14",
+            "avatar": "https://placehold.co/100x100?text=s14"
+          }
+        ]
+      },
+      {
+        "id": "1fcb6576-fb9d-49d4-a162-603fd3ca483e",
+        "name": "Event 405",
+        "date": "2025-06-28T12:35:17.907872Z",
+        "streamers": [
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          },
+          {
+            "id": "s19",
+            "username": "streamer19",
+            "avatar": "https://placehold.co/100x100?text=s19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "114524791",
+    "platform": "martch",
+    "events": [
+      {
+        "id": "227bf596-71e7-46c2-a71e-2cbb2997ed1b",
+        "name": "Event 800",
+        "date": "2025-06-22T12:35:17.907987Z",
+        "streamers": [
+          {
+            "id": "s20",
+            "username": "streamer20",
+            "avatar": "https://placehold.co/100x100?text=s20"
+          },
+          {
+            "id": "s12",
+            "username": "streamer12",
+            "avatar": "https://placehold.co/100x100?text=s12"
+          }
+        ]
+      },
+      {
+        "id": "cb71bdcc-8345-4b1e-b7e0-b2f438e9f373",
+        "name": "Event 518",
+        "date": "2025-06-25T12:35:17.908034Z",
+        "streamers": [
+          {
+            "id": "s7",
+            "username": "streamer7",
+            "avatar": "https://placehold.co/100x100?text=s7"
+          }
+        ]
+      },
+      {
+        "id": "ff820301-a7c6-4cae-bb03-d1d1d5d9615f",
+        "name": "Event 690",
+        "date": "2025-06-26T12:35:17.908073Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          },
+          {
+            "id": "s2",
+            "username": "streamer2",
+            "avatar": "https://placehold.co/100x100?text=s2"
+          },
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          }
+        ]
+      },
+      {
+        "id": "9d9c2348-068e-4b32-8990-f3ae6d40b62f",
+        "name": "Event 880",
+        "date": "2025-06-22T12:35:17.908134Z",
+        "streamers": [
+          {
+            "id": "s5",
+            "username": "streamer5",
+            "avatar": "https://placehold.co/100x100?text=s5"
+          }
+        ]
+      },
+      {
+        "id": "c38cbad7-239e-4c46-b7d4-3e41742ed150",
+        "name": "Event 332",
+        "date": "2025-06-29T12:35:17.908178Z",
+        "streamers": [
+          {
+            "id": "s3",
+            "username": "streamer3",
+            "avatar": "https://placehold.co/100x100?text=s3"
+          },
+          {
+            "id": "s13",
+            "username": "streamer13",
+            "avatar": "https://placehold.co/100x100?text=s13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "114524791",
+    "platform": "streams",
+    "events": [
+      {
+        "id": "2ea2ca0d-b977-483f-9d4f-4a1da18c3a49",
+        "name": "Event 413",
+        "date": "2025-06-27T12:35:17.908233Z",
+        "streamers": [
+          {
+            "id": "s11",
+            "username": "streamer11",
+            "avatar": "https://placehold.co/100x100?text=s11"
+          },
+          {
+            "id": "s9",
+            "username": "streamer9",
+            "avatar": "https://placehold.co/100x100?text=s9"
+          }
+        ]
+      },
+      {
+        "id": "7cd54be5-4853-4568-b812-71ed2bbbd3e5",
+        "name": "Event 142",
+        "date": "2025-06-26T12:35:17.908261Z",
+        "streamers": [
+          {
+            "id": "s4",
+            "username": "streamer4",
+            "avatar": "https://placehold.co/100x100?text=s4"
+          }
+        ]
+      }
+    ]
+  }
+]
