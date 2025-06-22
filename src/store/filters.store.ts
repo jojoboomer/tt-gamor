@@ -3,7 +3,7 @@ import { persist } from "zustand/middleware";
 
 const storageKey = "gamor-store";
 
-export type Platform = "Party" | "Match" | "Stream";
+export type Platform = "party" | "match" | "stream";
 
 export type Game = {
   id: string;
@@ -32,7 +32,7 @@ interface Actions {
 const initialState: State = {
   filters: {
     game: null,
-    platform: "Party",
+    platform: "party",
   },
 };
 

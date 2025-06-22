@@ -3,14 +3,14 @@ import useFiltersStore, { type Platform } from "@/store/filters.store";
 import { useCallback } from "react";
 
 type PlatformOption = {
-  value: string;
-  label: Platform;
+  value: Platform;
+  label: string;
 };
 
 const platforms: PlatformOption[] = [
   { value: "party", label: "Party" },
-  { value: "martch", label: "Match" },
-  { value: "streams", label: "Stream" },
+  { value: "match", label: "Match" },
+  { value: "stream", label: "Stream" },
 ];
 
 const PlatformSelector = () => {
