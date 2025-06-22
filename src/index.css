@@ -46,7 +46,13 @@ p {
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* "clamp-sm": "clamp(250px, 40vh, 400px)",
+        "clamp-md": "clamp(300px, 50vh, 600px)",
+        "clamp-lg": "clamp(400px, 60vh, 800px)",
+        "clamp-xl": "clamp(500px, 70vh, 900px)", */
+
 @theme inline {
+    --height-clamp-sm: clamp(250px, 40vh, 400px);
     --color-background: var(--background);
     --color-panel: var(--panel);
     --color-card: var(--card);
@@ -58,6 +64,7 @@ p {
     --color-accent: oklch(74.77% 0.16379 48.583);
     --color-warning: oklch(54.398% 0.21819 28.722);
     --color-border: oklch(92.8% 0.006 264.531);
+    --color-neutral: var(--neutral);
 }
 
 :root {
@@ -66,6 +73,9 @@ p {
     --card: oklch(100% 0.00011 271.152);
     --text: oklch(15.513% 0.0087 274.277);
     --text-secondary: oklch(51.48% 0.00691 240.179);
+
+    --neutral: oklch(96.02% 0.00353 248.565);
+
 }
 
 .dark {
@@ -74,4 +84,6 @@ p {
     --card: oklch(24.116% 0.01777 255.725);
     --text: oklch(0.9602 0.0034 247.86);
     --text-secondary: oklch(66.617% 0.00922 236.907);
+
+    --neutral: oklch(45.678% 0.00005 271.152);
 }
