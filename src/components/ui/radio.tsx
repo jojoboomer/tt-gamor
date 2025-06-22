@@ -27,7 +27,7 @@ const Radio = ({ options, selectedOption, onChangeOption,className }: Props) => 
             <label
               htmlFor={option.value}
               className={`
-                relative flex items-center justify-center h-[40px] w-[100px] 
+                relative flex items-center justify-center h-[40px] w-[80px] lg:w-[80px] xl:w-[100px] 
                  font-medium rounded-full cursor-pointer
                 transition-colors duration-150 ease-in
                 ${selectedOption === option.value ? "text-text" : ""}
@@ -39,7 +39,7 @@ const Radio = ({ options, selectedOption, onChangeOption,className }: Props) => 
         ))}
 
         <div
-          className="absolute z-0 h-[40px] w-[100px] bg-neutral rounded-4xl transition-transform duration-[250ms] ease-out"
+          className="absolute z-0 h-[40px] w-[80px] lg:w-[80px] xl:w-[100px] bg-neutral rounded-4xl transition-transform duration-[250ms] ease-out"
           style={{
             transform: getGliderPosition(),
           }}
