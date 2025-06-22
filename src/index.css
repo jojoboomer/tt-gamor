@@ -47,6 +47,7 @@ p {
     --color-primary: oklch(53.837% 0.25322 294.09);
     --color-accent: oklch(74.77% 0.16379 48.583);
     --color-warning: oklch(54.398% 0.21819 28.722);
+    --color-border: oklch(92.8% 0.006 264.531);
 }
 
 :root {
