@@ -1,7 +1,7 @@
 {
   "users" : [
     {
-      "id": 1,
+      "id": "1",
       "username": "gamefan123",
       "fullName": "Pedro Pascal",
       "email": "user1@example.com",
@@ -11,7 +11,7 @@
       "avatar": ""
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "streamlover",
       "fullName": "João Silva",
       "email": "user2@example.com",
@@ -31,7 +31,7 @@
       "avatar": ""
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "admin",
       "fullName": "Admin",
       "email": "admin@gamor.com",
@@ -41,7 +41,7 @@
       "avatar": ""
     },
     {
-      "id": 5,
+      "id": "5",
       "username": "newviewer",
       "fullName": "Andres Iniesta",
       "email": "user5@example.com",
