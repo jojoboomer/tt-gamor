@@ -4,11 +4,12 @@ import useGamorStore from "@/store/main.store";
 import { ModalProvider } from "@/store/modal.context";
 import { useEffect } from "react";
 import { Outlet } from "react-router";
+import { Toaster } from "sonner";
 
 const RootLayout = () => {
   const { theme } = useGamorStore();
   const { data, setData } = useGamorStore();
-   const hasHydrated = useGamorStore.persist.hasHydrated(); // Verifica si Zustand ha hidratado el estado 
+   const hasHydrated = useGamorStore.persist.hasHydrated(); 
 
   useEffect(() => {
     let applied = theme;
@@ -46,6 +47,7 @@ const RootLayout = () => {
         <Outlet />
       </main>
       <GameModal />
+      <Toaster />
     </ModalProvider>
   );
 };

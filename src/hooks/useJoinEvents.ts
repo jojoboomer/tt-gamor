@@ -20,13 +20,17 @@ export const useEventParticipation = () => {
   const toggleEventParticipation = useCallback(
     (eventId: string) => {
       if (!currentUser) {
-        alert("You must be logged in to join an event.");
-        return;
+        return {
+          success: false,
+          message: "You must be logged in to join an event.",
+        };
       }
 
-      // Si ya está en otro evento, no se permite unirse a uno nuevo
       if (currentEvent && currentEvent.id !== eventId) {
-        alert("You can't join another event while you're in another one.");
+        return {
+          success: false,
+          message: "You can't join another event while you're in another one.",
+        };
         return;
       }
 
@@ -59,7 +63,10 @@ export const useEventParticipation = () => {
       setData(updatedData);
       setCurrentEvent(isLeaving ? null : newCurrentEvent || null);
 
-      alert(isLeaving ? "You left the event." : "You joined the event.");
+      return {
+        success: true,
+        message: isLeaving ? "You left the event." : "You joined the event.",
+      };
     },
     [currentUser, data, setData, currentEvent, setCurrentEvent]
   );
