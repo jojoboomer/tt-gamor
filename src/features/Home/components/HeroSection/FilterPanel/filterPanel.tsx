@@ -1,7 +1,7 @@
 import Button from "@/components/ui/buttom";
 import { useSearchEvents } from "@/hooks/useSearchEvents";
 import { cn } from "@/lib/utils";
-import useFiltersStore from "@/store/filters.store";
+import useGamorStore from "@/store/main.store";
 import { useCallback } from "react";
 import EventList from "./eventList";
 import GameSelector from "./gameSelector";
@@ -9,7 +9,7 @@ import PlatformSelector from "./platformSelector";
 
 const FilterPanel = ({ className }: { className?: string }) => {
   const { searchEvents } = useSearchEvents();
-  const { results } = useFiltersStore();
+  const { results } = useGamorStore();
 
   const handleSearch = useCallback(() => searchEvents(), [searchEvents]);
 

@@ -1,11 +1,11 @@
 import Button from "@/components/ui/buttom";
-import useFiltersStore from "@/store/filters.store";
+import useGamorStore from "@/store/main.store";
 import { useModalContext } from "@/store/modal.context";
 import { SlidersHorizontal, X } from "lucide-react";
 import { useCallback } from "react";
 
 const GameSelector = () => {
-  const { filters, resetFilters, resetResults } = useFiltersStore();
+  const { filters, resetFilters, resetResults } = useGamorStore();
   const { setModalOpen } = useModalContext();
 
   const handleOpenModal = useCallback(() => setModalOpen(true), [setModalOpen]);

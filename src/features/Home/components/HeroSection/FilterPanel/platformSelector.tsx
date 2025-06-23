@@ -1,5 +1,5 @@
 import Radio from "@/components/ui/radio";
-import useFiltersStore, { type Platform } from "@/store/filters.store";
+import useGamorStore from "@/store/main.store";
 import { useCallback } from "react";
 
 type PlatformOption = {
@@ -14,7 +14,7 @@ const platforms: PlatformOption[] = [
 ];
 
 const PlatformSelector = () => {
-  const { filters, setFilters } = useFiltersStore();
+  const { filters, setFilters } = useGamorStore();
 
   const onChange = useCallback(
     (value: string) => setFilters({ ...filters, platform: value as Platform }),

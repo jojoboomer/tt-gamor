@@ -1,9 +1,8 @@
-import useFiltersStore from "@/store/filters.store";
 import useGamorStore from "@/store/main.store";
 import { useCallback, useEffect } from "react";
 
 export const useSearchEvents = () => {
-  const { filters, setResults, resetResults } = useFiltersStore();
+  const { filters, setResults, resetResults } = useGamorStore();
   const { data } = useGamorStore()
 
   const searchEvents = useCallback(() => {
