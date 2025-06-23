@@ -1,9 +1,15 @@
-import Button from "@/components/ui/buttom";
+import Button, { type ButtonProps } from "@/components/ui/buttom";
 import { cn } from "@/lib/utils";
 import useGamorStore from "@/store/main.store";
 import { Moon, Sun } from "lucide-react";
 
-const ThemeToggle = () => {
+interface Props extends ButtonProps{
+  className?: string;
+  variant: ButtonProps["variant"];
+  size: ButtonProps["size"];
+}
+
+const ThemeToggle = ({className, ...props} : Props) => {
   const { theme, toggleTheme } = useGamorStore();
 
   const handleToggleTheme = () => {
@@ -11,7 +17,7 @@ const ThemeToggle = () => {
   };
 
   return (
-    <Button variant="default" size="icon" onClick={handleToggleTheme}>
+    <Button {...props} variant={props.variant} size={props.size} className={cn("rounded-full shadow-lg",className)} onClick={handleToggleTheme}>
       <Sun
         className={cn(
           theme === "dark" ? "hidden" : "block",

@@ -1,3 +1,4 @@
+import ThemeToggle from "@/features/Login/components/themeToggle";
 import useAuthenticationStore from "@/store/auth.store";
 import Button from "@components/ui/buttom";
 import { Link, useNavigate } from "react-router";
@@ -69,6 +70,7 @@ const Header = ({ navItems, isSidebarOpen, toggleSidebar }: Props) => {
               >
                 Create account
               </CustomAccountButton>
+              <ThemeToggle variant={"text"} size={"icon"} className="size-10 shadow-lg" />
             </>
           )}
         </div>

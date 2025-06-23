@@ -5,7 +5,9 @@ const Login = () => {
   return (
     <div className="h-screen grid grid-cols-1 md:grid-cols-[1fr_40%] lg:grid-cols-2 items-center justify-center bg-background bg">
       <div className="fixed top-0 right-0 h-full px-12 py-4 flex flex-col justify-between items-center">
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
+        <ThemeToggle variant={"default"} size={"icon"} className="size-10 shadow-lg border border-border" />
+
         <span className="text-4xl font-bold text-white shadow">
           Gamor
         </span>
