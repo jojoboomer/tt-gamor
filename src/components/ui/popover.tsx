@@ -1,11 +1,16 @@
 import { cn } from "@/lib/utils";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import ReactDOM from "react-dom";
 
-function ReactPopover({ children, content }) {
+interface ReactPopoverProps {
+  children: ReactNode;
+  content: ReactNode;
+};
+
+function ReactPopover({ children, content } : ReactPopoverProps) {
   const [show, setShow] = useState(false);
-  const triggerRef = useRef(null);
-  const popoverRef = useRef(null);
+const triggerRef = useRef<HTMLDivElement | null>(null);
+const popoverRef = useRef<HTMLDivElement | null>(null);
   const [popoverStyle, setPopoverStyle] = useState({});
   // Event handler for when the mouse enters the trigger area.
   // Sets `show` to true, initiating the popover's appearance animation.

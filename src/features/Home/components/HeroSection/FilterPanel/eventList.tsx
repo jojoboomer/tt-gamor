@@ -1,6 +1,10 @@
 import EventItem from "./eventItem";
 
-const EventList = ({ results }) => {
+interface Props {
+  results: StreamEvent[];
+};
+
+const EventList = ({ results }: Props) => {
 
   return (
     <ul className=" w-full h-full py-3 px-1 space-y-2 overflow-y-auto no-scrollbar flex-1 pb-20">
