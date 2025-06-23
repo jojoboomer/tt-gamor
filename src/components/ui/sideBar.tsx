@@ -29,7 +29,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, children }) =
       <aside
         ref={sidebarRef}
         className={`fixed top-0 right-0 h-full w-full bg-panel 
-          flex flex-col z-[1000] items-center justify-center
+          flex flex-col z-[100] items-center justify-center
           transform transition-transform duration-300 ease-out
           ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
         role="dialog"

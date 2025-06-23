@@ -8,7 +8,7 @@ interface HamburgerIconProps {
 export const HamburgerIcon: React.FC<HamburgerIconProps> = ({ isOpen, onClick }) => {
   return (
     <button
-      className="relative flex w-8 flex-col gap-1.5 bg-transparent p-0 z-[1001]"
+      className="relative flex w-8 flex-col gap-1.5 bg-transparent p-0 z-[101]"
       onClick={onClick}
       aria-label={isOpen ? 'Close menu' : 'Open menu'}
     >

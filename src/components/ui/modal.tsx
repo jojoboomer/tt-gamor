@@ -43,7 +43,7 @@ export const Modal = ({ children }: Props) => {
 
   return createPortal(
     <div
-      className="bg-black/60 fixed inset-0 w-full min-h-screen z-50 overflow-hidden overflow-y-auto flex flex-col items-center justify-center "
+      className="bg-black/60 fixed inset-0 w-full min-h-screen z-[102] overflow-hidden overflow-y-auto flex flex-col items-center justify-center "
       onClick={closeModal}
     >
       <div
