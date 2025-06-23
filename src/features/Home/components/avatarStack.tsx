@@ -14,7 +14,7 @@ const AvatarStack = ({ list, className, size = "size-6" }: Props) => {
           key={index }
           src={item.avatar || createInitialsAvatar(item.username)}
           alt={item.username}
-          className={cn("rounded-full border border-border", size)}
+          className={cn("rounded-full bg-gray-600/60 shadow-md", size)}
         ></img>
       ))}
     </div>
