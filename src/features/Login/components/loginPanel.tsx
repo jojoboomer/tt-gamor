@@ -25,7 +25,9 @@ const LoginPanel = () => {
           </Button>
         </div>
 
-        <Divider label="or login with email" className="uppercase text-sm" />
+        <Divider>
+          <span className="text-sm uppercase">or login with email</span>
+        </Divider>
 
         <LoginForm />
 

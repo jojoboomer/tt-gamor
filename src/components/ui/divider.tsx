@@ -2,28 +2,16 @@ import { cn } from "@/lib/utils";
 
 interface Props {
   className?: string;
-  label?: string;
-  align?: AlignVariant;
+  children?: React.ReactNode;
 }
 
-const Divider = ({ className, label, align = "center" }: Props) => {
-  const alignmentClasses = {
-    left: "left-1/2 top-1/2 -translate-1/2 ",
-    center: "left-1/2 top-1/2 -translate-1/2 ",
-    right: "left-1/2 top-1/2 -translate-1/2 ",
-  };
+const Divider = ({ children, className }: Props) => {
+
   return (
-    <div className={cn("relative w-full h-px bg-text-secondary", className)}>
-      {label && (
-        <span
-          className={cn(
-            "absolute bg-background px-2 text-text-secondary",
-            alignmentClasses[align]
-          )}
-        >
-          {label}
-        </span>
-      )}
+    <div className={cn("flex items-center", className)}>
+      <div className="h-px flex-1 bg-border"></div>
+      {children && <div className="px-2">{children}</div>}
+      <div className="h-px flex-1 bg-border"></div>
     </div>
   );
 };

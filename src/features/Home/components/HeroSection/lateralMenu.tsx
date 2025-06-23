@@ -4,7 +4,7 @@ import useAuthenticationStore from "@/store/auth.store";
 import useGamorStore from "@/store/main.store";
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router";
-import Avatar from "./avatar";
+import Avatar from "./Header/avatar";
 
 interface SideMenuProps {
   navItems: { name: string; href: string }[];
@@ -50,7 +50,7 @@ const LateralMenu: React.FC<SideMenuProps> = ({ navItems, closeSidebar }) => {
           </Link>
         </li>
       ))}
-      <Divider />
+      <Divider/>
       <div className="space-y-4 text-text ">
         <li onClick={handleChangeTheme}>Change theme</li>
         {session ? (
