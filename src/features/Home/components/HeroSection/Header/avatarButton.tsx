@@ -33,7 +33,7 @@ function AvatarButton() {
           onClick={handleChangeTheme}
           className="flex items-center min-w-40 justify-between"
         >
-          <span>Change to </span>
+          <span>Change theme </span>
           {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
         </DropdownOption>
         <DropdownOption
