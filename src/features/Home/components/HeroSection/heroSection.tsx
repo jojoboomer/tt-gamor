@@ -4,7 +4,7 @@ import AuthPanel from "./AuthPanel/authPanel";
 import FilterPanel from "./FilterPanel/filterPanel";
 import GamePanel from "./GamePanel/gamePanel";
 import Header from "./Header/header";
-import LateralMenu from "./Header/lateralMenu";
+import LateralMenu from "./lateralMenu";
 
   const navItems = [
     { name: "Home", href: "/" },
