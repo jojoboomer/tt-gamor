@@ -1,8 +1,24 @@
 // src/hooks/useSidebar.ts
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 export const useSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isLargeScreen = window.innerWidth >= 768; 
+
+      if (isLargeScreen && isOpen) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [isOpen, setIsOpen]);
 
   const openSidebar = useCallback(() => {
     setIsOpen(true);
