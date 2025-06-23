@@ -8,11 +8,13 @@ type LoginData = {
 };
 
 type User = {
+  id: string;
   email: string;
   password: string;
   username: string;
   fullName: string;
   role: string;
+  avatar: string;
 };
 
 type StreamEvent = {

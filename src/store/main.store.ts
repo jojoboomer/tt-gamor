@@ -6,17 +6,21 @@ const storageKey = "gamor-store";
 
 interface State {
   data: StreamData[];
+  currentEvent: StreamEvent | null;
   theme: Theme;
 }
 
 interface Actions {
   toggleTheme: () => void;
   setTheme: (theme: Theme) => void;
+  setData: (data: StreamData[]) => void;
+  setCurrentEvent: (event: StreamEvent | null) => void;
 }
 
 const initialState: State = {
   data: mockData,
   theme: "system",
+  currentEvent: null,
 };
 
 const useGamorStore = create<State & Actions>()(
@@ -25,7 +29,6 @@ const useGamorStore = create<State & Actions>()(
       ...initialState,
       toggleTheme: () =>
         set((state) => {
-          console.log(state.theme);
           if (state.theme === "system") {
             const systemTheme = window.matchMedia(
               "(prefers-color-scheme: dark)"
@@ -38,6 +41,8 @@ const useGamorStore = create<State & Actions>()(
           return { theme: nextTheme };
         }),
       setTheme: (theme) => set({ theme }),
+      setData: (data) => set({ data }),
+      setCurrentEvent: (event) => set({ currentEvent: event }),
     }),
     {
       name: storageKey,
