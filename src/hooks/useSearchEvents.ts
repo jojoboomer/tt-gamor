@@ -18,6 +18,12 @@ export const useSearchEvents = () => {
     setResults(entry?.events ?? []);
   }, [data, filters, setResults, resetResults]);
 
+  //  Note: I had to combine features here to preserve the page original design.
+  //  The 'Search Now' button doesn't perform well cause I needs to update the list once db is updated.
+  //  so, it would be better to update the results every time the data changes,
+  //  not when the button is clicked. 
+  //  But following the instructions and the emphasis on the design,
+  //  I kept the button with its functionality.
   useEffect(() => {
     searchEvents();
   }, [searchEvents]);
