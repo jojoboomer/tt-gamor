@@ -2,6 +2,7 @@ import useAuthenticationStore from "@/store/auth.store";
 import Button from "@components/ui/buttom";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
+import CustomAccountButton from "../customButton";
 import Decoration from "../decoration";
 import AvatarButton from "./avatarButton";
 
@@ -61,8 +62,15 @@ const Header = () => {
             </>
           ) : (
             <>
-              <Button onClick={handleLogin}>Sign in</Button>
-              <Button onClick={handleCreateAccount}>Create account</Button>
+              <Button variant="text" onClick={handleLogin}>
+                Sign in
+              </Button>
+              <CustomAccountButton
+                className="bg-gray-950 border border-border/80 px-6 py-3 text-text hover:bg-gray-800"
+                onClick={handleCreateAccount}
+              >
+                Create account
+              </CustomAccountButton>
             </>
           )}
         </div>

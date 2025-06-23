@@ -1,24 +1,11 @@
-import { cn } from "@/lib/utils";
+import { cn, createInitialsAvatar } from "@/lib/utils";
+import useAuthenticationStore from "@/store/auth.store";
 import Button from "@components/ui/buttom";
+import CustomAccountButton from "../customButton";
 import Decoration from "../decoration";
 
-interface Props extends React.ComponentProps<"button"> {
-  className?: string;
-  error?: boolean;
-}
-
-const CustomAccountButton = ({ className, ...props }: Props) => {
-  return (
-    <button
-      {...props}
-      className={cn("text-sm px-8 py-4 rounded-4xl shadow-lg", className)}
-    >
-      Create account
-    </button>
-  );
-};
-
 const AuthSection = ({ className }: { className?: string }) => {
+  const { session } = useAuthenticationStore();
   return (
     <div className={cn(className)}>
       <div className="relative ">
@@ -40,11 +27,28 @@ const AuthSection = ({ className }: { className?: string }) => {
         </span>
         platform
       </p>
-      <div className="flex gap-6 items-center">
-        <CustomAccountButton className="dark:bg-white/10 dark:hover:bg-white/20 bg-white hover:bg-black/5" />
-        <Button size="md" variant="text">
-          Sign in
-        </Button>
+      <div className="flex gap-6 items-center justify-start w-full">
+        {session ? (
+          <p className="inline-flex items-center">
+            👌Welcome back {" "}
+            <img
+              src={
+                session.user.avatar ||
+                createInitialsAvatar(session.user.fullName)
+              }
+              alt={session.user.fullName}
+              className="mx-2 rounded-full size-6"
+            />
+            <span className="text-accent dark:text-primary font-semibold">{`${session.user.username}`}</span>
+          </p>
+        ) : (
+          <>
+            <CustomAccountButton className="dark:bg-white/10 dark:hover:bg-white/20 bg-white hover:bg-black/5" />
+            <Button size="md" variant="text">
+              Sign in
+            </Button>
+          </>
+        )}
       </div>
     </div>
   );
