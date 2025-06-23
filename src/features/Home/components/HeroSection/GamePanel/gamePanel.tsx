@@ -4,7 +4,7 @@ import Soldier2 from "@assets/soldier2.webp";
 import ActiveEvent from "./activeEvent";
 import DigitalClock from "./digitalClock";
 
-const GameSection = ({ className }: { className?: string }) => {
+const GamePanel = ({ className }: { className?: string }) => {
   return (
     <div className={cn(className)}>
       <div className="text-center space-y-2">
@@ -29,4 +29,4 @@ const GameSection = ({ className }: { className?: string }) => {
   );
 };
 
-export default GameSection;
+export default GamePanel;

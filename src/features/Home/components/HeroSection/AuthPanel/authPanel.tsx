@@ -1,10 +1,10 @@
 import { cn, createInitialsAvatar } from "@/lib/utils";
 import useAuthenticationStore from "@/store/auth.store";
 import Button from "@components/ui/buttom";
-import CustomAccountButton from "../customButton";
-import Decoration from "../decoration";
+import CustomAccountButton from "../../customButton";
+import Decoration from "../../decoration";
 
-const AuthSection = ({ className }: { className?: string }) => {
+const AuthPanel = ({ className }: { className?: string }) => {
   const { session } = useAuthenticationStore();
   return (
     <div className={cn(className)}>
@@ -54,4 +54,4 @@ const AuthSection = ({ className }: { className?: string }) => {
   );
 };
 
-export default AuthSection;
+export default AuthPanel;

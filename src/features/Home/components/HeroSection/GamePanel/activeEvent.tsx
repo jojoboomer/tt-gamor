@@ -1,5 +1,5 @@
 import useGamorStore from "@/store/main.store";
-import AvatarStack from "../avatarStack";
+import AvatarStack from "../../avatarStack";
 
 const ActiveEvent = () => {
   const { currentEvent } = useGamorStore();

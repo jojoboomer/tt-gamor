@@ -22,7 +22,7 @@ const Avatar = () => {
 
 function AvatarButton() {
   const { logout } = useAuthenticationStore();
-  const { toggleTheme, theme } = useGamorStore();
+  const { toggleTheme, theme, setCurrentEvent } = useGamorStore();
   const navigate = useNavigate();
 
    const handleChangeTheme = () => {
@@ -31,6 +31,7 @@ function AvatarButton() {
 
   const handleLogout = () => {
     logout();
+    setCurrentEvent(null)
     // navigate("/login");
   };
 

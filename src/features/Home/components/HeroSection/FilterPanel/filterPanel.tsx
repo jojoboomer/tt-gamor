@@ -7,7 +7,7 @@ import EventList from "./eventList";
 import GameSelector from "./gameSelector";
 import PlatformSelector from "./platformSelector";
 
-const FilterSection = ({ className }: { className?: string }) => {
+const FilterPanel = ({ className }: { className?: string }) => {
   const { searchEvents } = useSearchEvents();
   const { results } = useFiltersStore();
 
@@ -42,4 +42,4 @@ const FilterSection = ({ className }: { className?: string }) => {
   );
 };
 
-export default FilterSection;
+export default FilterPanel;

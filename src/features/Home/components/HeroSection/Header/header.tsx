@@ -2,8 +2,8 @@ import useAuthenticationStore from "@/store/auth.store";
 import Button from "@components/ui/buttom";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
-import CustomAccountButton from "../customButton";
-import Decoration from "../decoration";
+import CustomAccountButton from "../../customButton";
+import Decoration from "../../decoration";
 import AvatarButton from "./avatarButton";
 
 const Header = () => {
@@ -30,22 +30,21 @@ const Header = () => {
     <header className="flex items-center justify-between w-full h-20 md:h-28 md:px-0 px-8">
       <nav className="flex-1 items-center gap-6 hidden md:flex ">
         {navItems.map((item) => (
+          //TODO
           <Link to={item.href} key={item.name}>
             <Button
               variant="text"
               size="md"
               className={`font-medium ${
                 currentPage === item.href
-                  ? "text-primary dark:text-accent"
+                  ? "text-primary dark:text-accent hover:text-inherit "
                   : "hover:text-primary dark:hover:text-accent"
               }`}
             >
-              <span className="relative">
-                {currentPage === item.href && (
-                  <Decoration className="absolute stroke-accent dark:stroke-primary scale-100 left-0 top-0" />
-                )}
+              <div className="relative">
                 {item.name}
-              </span>
+                <Decoration className=" stroke-accent dark:stroke-primary scale-10 inset-0 stroke-3 " />
+              </div>
             </Button>
           </Link>
         ))}

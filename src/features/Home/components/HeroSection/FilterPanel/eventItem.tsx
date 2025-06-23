@@ -2,7 +2,7 @@ import Button from "@/components/ui/buttom";
 import { useEventParticipation } from "@/hooks/useJoinEvents";
 import useGamorStore from "@/store/main.store";
 import { Minus, Plus } from "lucide-react";
-import AvatarStack from "../avatarStack";
+import AvatarStack from "../../avatarStack";
 
 type EventItemProps = {
   index: number;
