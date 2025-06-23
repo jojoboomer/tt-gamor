@@ -1,15 +1,24 @@
+import Button from "@/components/ui/buttom";
+import { useEventParticipation } from "@/hooks/useJoinEvents";
 import useGamorStore from "@/store/main.store";
+import { X } from "lucide-react";
 import AvatarStack from "../../avatarStack";
 
 const ActiveEvent = () => {
-  const { currentEvent } = useGamorStore();
+  const { currentEvent, setCurrentEvent } = useGamorStore();
+  const { toggleEventParticipation } = useEventParticipation();
 
   if (!currentEvent) {
     return null;
   }
 
+  const handleOnClick = () => {
+    toggleEventParticipation(currentEvent.id)
+    setCurrentEvent(null)
+  }
+
   return (
-    <div className="absolute bottom-10 bg-panel/20 backdrop-blur-2xl border border-border rounded-4xl p-4 animate-bounce">
+    <div className="absolute bottom-10 bg-panel/20 backdrop-blur-2xl border border-border rounded-4xl p-4 ">
       <div className="relative flex flex-col items-center">
         <AvatarStack
           list={currentEvent.streamers}
@@ -17,7 +26,12 @@ const ActiveEvent = () => {
           className="absolute -top-8 flex items-center -space-x-2 flex-1 "
         />
         <p>You have joined to:</p>
-        {currentEvent.name}
+        <div className="inline-flex gap-2 items-center">
+          {currentEvent.name}
+          <Button variant="text" className="hover:scale-120" onClick={handleOnClick}>
+            <X height={20} width={20} />
+          </Button>
+        </div>
       </div>
     </div>
   );
