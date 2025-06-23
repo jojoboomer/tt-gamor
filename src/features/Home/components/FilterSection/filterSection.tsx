@@ -8,10 +8,10 @@ import GameSelector from "./gameSelector";
 import PlatformSelector from "./platformSelector";
 
 const FilterSection = ({ className }: { className?: string }) => {
-  const { searchGame } = useSearchEvents();
+  const { searchEvents } = useSearchEvents();
   const { results } = useFiltersStore();
 
-  const handleSearch = useCallback(() => searchGame(), [searchGame]);
+  const handleSearch = useCallback(() => searchEvents(), [searchEvents]);
 
   return (
     <div className={cn(className)}>

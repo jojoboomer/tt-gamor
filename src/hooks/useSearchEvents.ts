@@ -6,7 +6,7 @@ export const useSearchEvents = () => {
   const { filters, setResults, resetResults } = useFiltersStore();
   const { data } = useGamorStore()
 
-  const searchGame = useCallback(() => {
+  const searchEvents = useCallback(() => {
     if (!filters.game || !filters.platform) return resetResults();
 
     const entry = data.find(
@@ -17,10 +17,10 @@ export const useSearchEvents = () => {
   }, [data, filters, setResults, resetResults]);
 
   useEffect(() => {
-    searchGame();
-  }, []);
+    searchEvents();
+  }, [data]);
 
   return {
-    searchGame,
+    searchEvents,
   };
 };
