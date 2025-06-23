@@ -16,8 +16,8 @@ function Toast({ title, description, variant }: ToastProps) {
       <div className="flex flex-1 items-center flex-col">
         <p className="text-sm font-medium text-gray-900">{title}</p>
         <div className="flex items-center gap-2">
-          {variant === "info" && <Info className="w-5 h-5" />}
-          {variant === "error" && <TriangleAlert className="w-5 h-5" />}
+          {variant === "info" && <Info className="w-6 h-6 dark:text-white text-black" />}
+          {variant === "error" && <TriangleAlert className="w-6 h-6 text-warning" />}
           <p className="text-sm text-text">{description}</p>
         </div>
       </div>
