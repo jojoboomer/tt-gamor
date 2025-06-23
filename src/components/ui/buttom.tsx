@@ -32,7 +32,7 @@ const buttonVariants = cva(
 )
 
 interface Props extends React.ComponentProps<"button"> {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   variant?: buttonVariants;
   color?: colorVariants;
