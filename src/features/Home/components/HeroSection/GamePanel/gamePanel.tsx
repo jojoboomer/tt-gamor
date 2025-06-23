@@ -18,12 +18,12 @@ const GamePanel = ({ className }: { className?: string }) => {
       <img
         src={Soldier1}
         alt="fornite soldier"
-        className="h-4/5 dark:hidden block"
+        className="h-[350px] dark:hidden block"
       />
       <img
         src={Soldier2}
         alt="cod soldier"
-        className="h-4/5 hidden dark:block"
+        className="h-[350px] hidden dark:block"
       />
     </div>
   );
