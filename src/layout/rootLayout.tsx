@@ -39,9 +39,7 @@ const RootLayout = () => {
           }
         };
         load();
-      } else {
-        console.log("Data already loaded from persisted state");
-      }
+      } 
     }
   }, [setData, hasHydrated, data]);
 
