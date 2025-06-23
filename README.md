@@ -35,6 +35,12 @@ Start the development server:
 npm run dev
 ```
 
+## 👌 Quick Start
+[Gamor Platform Demo](https://gamor-streaming.vercel.app/)  
+
+Test email: admin@gamor.com  
+Test password: admin1
+
 ## 📝 Notes
 
 - For quick implementation, I used mocks for data and authentication, allowing me to focus on the required work: layout and proper functionality.
