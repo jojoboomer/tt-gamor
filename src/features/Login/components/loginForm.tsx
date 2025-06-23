@@ -2,7 +2,7 @@ import Button from "@/components/ui/buttom";
 import Input from "@/components/ui/input";
 import useAuthenticationStore from "@store/auth.store";
 import { useFormik } from "formik";
-import { Eye, EyeOff, Mail } from "lucide-react";
+import { Eye, EyeOff, Lock, Mail } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import * as Yup from "yup";
@@ -41,6 +41,7 @@ const LoginForm = () => {
     >
       <div className="flex flex-col gap-4">
         <Input
+        className="text-sm"
           type="email"
           name="email"
           id="email"
@@ -56,6 +57,7 @@ const LoginForm = () => {
           </p>
         )}
         <Input
+        className="text-sm"
           type={showPassword ? "text" : "password"}
           name="password"
           id="password"
@@ -63,7 +65,7 @@ const LoginForm = () => {
           onChange={formik.handleChange}
           value={formik.values.password}
           error={formik.touched.password && Boolean(formik.errors.password)}
-          leftChildren={<Mail className="h-5 w-5 text-text-secondary" />}
+          leftChildren={<Lock  className="h-5 w-5 text-text-secondary" />}
           rightChildren={
             <button
               type="button"
