@@ -1,4 +1,5 @@
 import GameModal from "@/features/Home/components/gameModal";
+import { loadLiveStreams } from "@/lib/streamService";
 import useGamorStore from "@/store/main.store";
 import { ModalProvider } from "@/store/modal.context";
 import { useEffect } from "react";
@@ -6,6 +7,7 @@ import { Outlet } from "react-router";
 
 const RootLayout = () => {
   const { theme } = useGamorStore();
+  const { data, setData } = useGamorStore();
 
   useEffect(() => {
     let applied = theme;
@@ -17,6 +19,21 @@ const RootLayout = () => {
 
     document.documentElement.classList.toggle("dark", applied === "dark");
   }, [theme]);
+
+  useEffect(() => {
+    if (data) {
+      return;
+    }
+    const load = async () => {
+      try {
+        const response = await loadLiveStreams();
+        setData(response);
+      } catch (error) {
+        console.error("Failed to load mock data", error);
+      }
+    };
+    load();
+  }, []);
 
   return (
     <ModalProvider>
