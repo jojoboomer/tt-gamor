@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import Soldier1 from "@assets/soldier1.webp";
 import Soldier2 from "@assets/soldier2.webp";
+import ActiveEvent from "./activeEvent";
 import DigitalClock from "./digitalClock";
 
 const GameSection = ({ className }: { className?: string }) => {
@@ -13,6 +14,7 @@ const GameSection = ({ className }: { className?: string }) => {
         </p>
       </div>
       <DigitalClock />
+      <ActiveEvent />
       <img
         src={Soldier1}
         alt="fornite soldier"
