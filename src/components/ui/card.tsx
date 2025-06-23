@@ -1,6 +1,13 @@
-const Card = ({ children }: { children: React.ReactNode }) => {
+import { cn } from "@/lib/utils";
+
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+  children: React.ReactNode;
+}
+
+const Card = ({ children, className, ...props }: Props) => {
   return (
-    <div className="bg-card shadow-lg rounded-2xl p-4 flex flex-col gap-4">
+    <div {...props} className={cn("bg-card shadow-lg rounded-2xl p-4 flex flex-col gap-4", className)}>
       {children}
     </div>
   );
