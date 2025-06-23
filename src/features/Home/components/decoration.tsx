@@ -12,7 +12,6 @@ const Decoration = ({className} : {className?: string}) => {
         stroke="inherit"
         d="M41 57c-64 35-57 104 56 80 47-11 83-26 116-51 71-59-1-96-68-71"
         fill="transparent"
-        strokeWidth="1"
       />
     </svg>
   );
