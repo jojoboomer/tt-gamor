@@ -1,25 +1,9 @@
-import Button, { type ButtonProps } from "@/components/ui/buttom";
-import ReactPopover from "@/components/ui/popover";
 import { useEventParticipation } from "@/hooks/useJoinEvents";
 import { toast } from "@/lib/toast-component";
 import useGamorStore from "@/store/main.store";
 import { X } from "lucide-react";
 import AvatarStack from "../../avatarStack";
-
-interface ButtonWithPopoverProps extends Omit<ButtonProps, "content"> {
-  content: React.ReactNode;
-}
-const ButtonWithPopover = ({
-  content,
-  children,
-  ...props
-}: ButtonWithPopoverProps) => (
-  <ReactPopover content={content}>
-    <Button {...props} variant="text" className="hover:scale-120">
-      {children}
-    </Button>
-  </ReactPopover>
-);
+import ButtonWithPopover from "../../buttonWithPopover";
 
 const ActiveEvent = () => {
   const { currentEvent, setCurrentEvent } = useGamorStore();
