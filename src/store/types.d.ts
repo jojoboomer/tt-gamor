@@ -8,7 +8,7 @@ type LoginData = {
 };
 
 type User = {
-  id: string;
+  id: string | number;
   email: string;
   password: string;
   username: string;
