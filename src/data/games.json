@@ -3,7 +3,7 @@
     {
       "id": "moba",
       "name": "MOBA",
-      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/21779-800x600.jpg"
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/29595-800x600.jpg"
     },
     {
       "id": "shooter",
@@ -22,7 +22,7 @@
     },
     {
       "id": "casual",
-      "name": "Casual / IRL",
+      "name": "IRL",
       "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/509672-800x600.jpg"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "id": "sandbox",
-      "name": "Sandbox / Creativo",
+      "name": "Sandbox",
       "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-800x600.jpg"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "id": "action",
-      "name": "Acción / Aventura",
+      "name": "Adventure",
       "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-800x600.jpg"
     }
   ],
