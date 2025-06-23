@@ -31,7 +31,7 @@ function AvatarButton() {
 
   const handleLogout = () => {
     logout();
-    navigate("/login");
+    // navigate("/login");
   };
 
 
