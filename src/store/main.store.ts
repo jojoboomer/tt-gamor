@@ -43,7 +43,7 @@ const initialState: GlobalState = {
 const useGamorStore = create<GlobalState & GlobalActions>()(
   persist(
     (set) => ({
-      ...initialState, // Extiende el estado inicial
+      ...initialState, 
 
       // Acciones de Tema
       toggleTheme: () =>

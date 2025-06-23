@@ -9,8 +9,12 @@ import { Toaster } from "sonner";
 const RootLayout = () => {
   const { theme } = useGamorStore();
   const { data, setData } = useGamorStore();
-   const hasHydrated = useGamorStore.persist.hasHydrated(); 
 
+  // Checks if the Zustand store's persisted state has been rehydrated from storage.
+  // Nescessary for the initial load of data from the MOCK API
+  const hasHydrated = useGamorStore.persist.hasHydrated();
+
+  // This effect runs whenever the `theme` from the store changes.
   useEffect(() => {
     let applied = theme;
     if (theme === "system") {
@@ -22,10 +26,10 @@ const RootLayout = () => {
     document.documentElement.classList.toggle("dark", applied === "dark");
   }, [theme]);
 
-
+  // This effect runs when `hasHydrated` changes, or when `setData` or `data` change.
   useEffect(() => {
     if (hasHydrated) {
-      if (!data || data.length === 0) { 
+      if (!data || data.length === 0) {
         const load = async () => {
           try {
             const response = await loadLiveStreams();
