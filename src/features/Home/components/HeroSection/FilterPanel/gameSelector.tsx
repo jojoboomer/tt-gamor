@@ -1,6 +1,6 @@
 import useGamorStore from "@/store/main.store";
 import { useModalContext } from "@/store/modal.context";
-import { SlidersHorizontal, X } from "lucide-react";
+import { SlidersHorizontal, Trash } from "lucide-react";
 import { useCallback } from "react";
 import ButtonWithPopover from "../../buttonWithPopover";
 
@@ -31,7 +31,7 @@ const GameSelector = () => {
           className="hover:scale-120"
           onClick={handleClearFilters}
         >
-          <X className="w-4 h-4 " />
+          <Trash className="w-4 h-4 " />
         </ButtonWithPopover>
       </div>
     </div>
