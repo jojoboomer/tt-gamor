@@ -27,7 +27,7 @@ const HeroSection = () => {
         {/* Game + Filter Panel */}
         <div className="flex flex-col md:flex-row flex-1 bg-panel overflow-hidden rounded-2xl lg:rounded-none">
           <GamePanel className="relative pt-10 w-full md:w-[50%] flex flex-col items-center justify-between gap-4 bg-primary dark:bg-accent rounded-t-4xl md:rounded-t-none" />
-          <FilterPanel className="flex-1 py-10 px-12 flex flex-col gap-6 rounded-b-4xl md:rounded-b-none" />
+          <FilterPanel className="flex-1 py-10 px-4 md:px-12 flex flex-col gap-6 rounded-b-4xl md:rounded-b-none" />
         </div>
       </div>
       <Sidebar isOpen={isOpen} onClose={closeSidebar}>
