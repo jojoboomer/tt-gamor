@@ -1,21 +1,21 @@
 import User from "@/data/users.json";
 
-const generateMockToken = (user) => {
+// mock token generation service
+const generateMockToken = (user : User) => {
   const tokenData = {
     user: {
       id: user.id,
       username: user.username,
       role: user.role,
     },
-    // Fecha actual + 1 hora
     exp: Math.floor(Date.now() / 1000) + 3600,
   };
 
-  // Simulamos un token codificado en base64
   return btoa(JSON.stringify(tokenData));
 };
 
-export const loginUser = async (credentials: any) => {
+// mock login service
+export const loginUser = async (credentials: { email: string; password: string }) => {
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
   const user = User.users.find(
