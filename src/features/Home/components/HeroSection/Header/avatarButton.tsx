@@ -4,26 +4,14 @@ import {
   DropdownOption,
   DropdownTrigger,
 } from "@/components/ui/dropdown";
-import { createInitialsAvatar } from "@/lib/utils";
 import useAuthenticationStore from "@/store/auth.store";
 import useGamorStore from "@/store/main.store";
 import { LogOut, Moon, Sun } from "lucide-react";
-import { useNavigate } from "react-router";
-
-const Avatar = () => {
-  const { session  } = useAuthenticationStore();
-
-  return (
-    <div className="relative flex size-8 shrink-0 overflow-hidden rounded-full bg-accent items-center justify-center text-2xl">
-      <img src={session?.user? createInitialsAvatar(session.user.fullName) :''} alt="avatar" className="w-full h-full object-cover" />
-    </div>
-  );
-};
+import Avatar from "./avatar";
 
 function AvatarButton() {
   const { logout } = useAuthenticationStore();
   const { toggleTheme, theme, setCurrentEvent } = useGamorStore();
-  const navigate = useNavigate();
 
    const handleChangeTheme = () => {
     toggleTheme();
@@ -34,7 +22,6 @@ function AvatarButton() {
     setCurrentEvent(null)
     // navigate("/login");
   };
-
 
   return (
     <Dropdown>

@@ -1,15 +1,21 @@
 import useAuthenticationStore from "@/store/auth.store";
 import Button from "@components/ui/buttom";
-import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import CustomAccountButton from "../../customButton";
 import Decoration from "../../decoration";
 import AvatarButton from "./avatarButton";
+import { HamburgerIcon } from "./menuIcon";
 
-const Header = () => {
+interface Props {
+  navItems: { name: string; href: string }[];
+  isSidebarOpen: boolean;
+  toggleSidebar: () => void;
+}
+
+const Header = ({ navItems, isSidebarOpen, toggleSidebar }: Props) => {
   const { session } = useAuthenticationStore();
-  const [currentPage, setCurrentPage] = useState("/");
   const navigate = useNavigate();
+  const currentPage = location.pathname;
 
   const handleLogin = () => {
     navigate("/login");
@@ -19,18 +25,10 @@ const Header = () => {
     navigate("/register");
   };
 
-  const navItems = [
-    { name: "Home", href: "/" },
-    { name: "Streams", href: "/streams" },
-    { name: "Party", href: "/party" },
-    { name: "Premium", href: "/premium" },
-  ];
-
   return (
     <header className="flex items-center justify-between w-full h-20 md:h-28 md:px-0 px-8">
       <nav className="flex-1 items-center gap-6 hidden md:flex ">
         {navItems.map((item) => (
-          //TODO
           <Link to={item.href} key={item.name}>
             <Button
               variant="text"
@@ -43,6 +41,7 @@ const Header = () => {
             >
               <div className="relative">
                 {item.name}
+                {/* //TODO */}
                 <Decoration className=" stroke-accent dark:stroke-primary scale-10 inset-0 stroke-3 " />
               </div>
             </Button>
@@ -65,7 +64,7 @@ const Header = () => {
                 Sign in
               </Button>
               <CustomAccountButton
-                className="bg-gray-950 border border-border/80 px-6 py-3 text-text hover:bg-gray-800"
+                className="bg-gray-950 border border-border/80 px-6 py-3 text-[#f0f2f4] hover:bg-gray-800"
                 onClick={handleCreateAccount}
               >
                 Create account
@@ -73,6 +72,9 @@ const Header = () => {
             </>
           )}
         </div>
+      </div>
+      <div className="md:hidden block">
+        <HamburgerIcon isOpen={isSidebarOpen} onClick={toggleSidebar} />
       </div>
     </header>
   );
