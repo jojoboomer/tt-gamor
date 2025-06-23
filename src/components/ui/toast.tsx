@@ -2,15 +2,14 @@ import type { ToastVariant } from "@/lib/toast-component";
 import { cn } from "@/lib/utils";
 import { Info, TriangleAlert } from "lucide-react";
 
+// The Toast functional component responsible for rendering a single toast notification.
 function Toast({ title, description, variant }: ToastProps) {
-  const variantClass = {
-    info: "text-white",
-    error: "text-white",
-  };
   return (
     <div
+      role={variant === "error" ? "alert" : "status"}
+      aria-live={variant === "error" ? "assertive" : "polite"}
+      aria-atomic="true"
       className={cn(
-        variantClass[variant],
         "bg-panel flex gap-px rounded-lg shadow-lg ring-1 ring-black/5 w-full md:max-w-[364px] items-center p-4"
       )}
     >
@@ -19,7 +18,7 @@ function Toast({ title, description, variant }: ToastProps) {
         <div className="flex items-center gap-2">
           {variant === "info" && <Info className="w-5 h-5" />}
           {variant === "error" && <TriangleAlert className="w-5 h-5" />}
-          <p className="text-sm text-gray-500">{description}</p>
+          <p className="text-sm text-text">{description}</p>
         </div>
       </div>
     </div>
@@ -29,8 +28,8 @@ function Toast({ title, description, variant }: ToastProps) {
 export default Toast;
 
 interface ToastProps {
-  id: string | number;
-  title?: string;
-  description?: string;
-  variant: ToastVariant;
+  id: string | number; // A unique identifier for the toast (likely used by a toast manager).
+  title?: string; // Optional main heading/title for the toast.
+  description?: string; // Optional descriptive text for the toast.
+  variant: ToastVariant; // The type/variant of the toast, determining its visual style and icon.
 }

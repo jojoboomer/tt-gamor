@@ -2,15 +2,14 @@ import { cn } from "@/lib/utils";
 import type React from "react";
 
 interface Props extends React.ComponentProps<"input"> {
-  label?: string;
-  leftChildren?: React.ReactNode;
-  rightChildren?: React.ReactNode;
-  className?: string;
-  error?: boolean;
+  label?: string; // Optional label for the input field. (Note: currently not rendered in the JSX).
+  leftChildren?: React.ReactNode; // Optional content to be rendered on the left side of the input field (e.g., an icon).
+  rightChildren?: React.ReactNode; // Optional content to be rendered on the right side of the input field (e.g., an icon, a button).
+  className?: string; // Optional custom CSS classes to be applied to the input element itself.
+  error?: boolean; // Boolean flag to indicate an error state, triggering specific error styles.
 }
 
 function Input({
-  label,
   className,
   leftChildren,
   rightChildren,

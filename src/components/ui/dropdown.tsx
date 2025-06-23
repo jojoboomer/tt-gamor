@@ -11,10 +11,16 @@ interface DropdownContextType {
   close: () => void;
 }
 
+// --- Dropdown Context ---
+// Creates a React Context object. This will be used to pass `isOpen`, `toggle`, and `close`
 const DropdownContext = createContext<DropdownContextType | undefined>(
   undefined
 );
 
+// --- useDropdown Hook ---
+// A custom hook that consumes the DropdownContext.
+// This hook makes the context's values (`isOpen`, `toggle`, `close`) easily accessible
+// to any child component wrapped within the <Dropdown.Provider>.
 const useDropdown = () => {
   const context = useContext(DropdownContext);
   if (!context) {
@@ -23,11 +29,14 @@ const useDropdown = () => {
   return context;
 };
 
+// --- Dropdown Component (Parent/Root) ---
+// Props interface for the main Dropdown component.
 interface DropdownProps {
   children: React.ReactNode;
   className?: string;
 }
 
+// The main Dropdown component. It manages the dropdown's state and provides it via context.
 export function Dropdown({ children, className = "" }: DropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -35,6 +44,8 @@ export function Dropdown({ children, className = "" }: DropdownProps) {
   const toggle = () => setIsOpen(!isOpen);
   const close = () => setIsOpen(false);
 
+  // Effect hook to handle clicks outside the dropdown.
+  // It attaches a 'mousedown' event listener to the document.
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -49,6 +60,7 @@ export function Dropdown({ children, className = "" }: DropdownProps) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Effect hook to handle the 'Escape' key press.
   useEffect(() => {
     const handleEscape = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -69,25 +81,32 @@ export function Dropdown({ children, className = "" }: DropdownProps) {
   );
 }
 
+// --- DropdownTrigger Component ---
+// Props interface for the dropdown trigger element (the button that opens/closes the menu).
 interface DropdownTriggerProps {
   children: React.ReactNode;
   className?: string;
-  showChevron?: boolean;
-  asChild?: boolean;
+  showChevron?: boolean; // Whether to display a rotating chevron icon.
+  asChild?: boolean; // Boolean to simulate an 'asChild' prop behavior for styling.
+  // If true, basic button styles are not applied, allowing children to define their own.
 }
 export function DropdownTrigger({
   children,
   className = "",
   showChevron = true,
-  asChild = false, // Simula el asChild con css
-}: DropdownTriggerProps) {
+  asChild = false,
+}: // Conditionally applies default button styles based on `asChild`.
+// If `asChild` is false, it applies standard button styling (flex, padding, background, border, hover, focus).
+// If `asChild` is true, it relies on the `children` to provide its own styling.
+DropdownTriggerProps) {
   const { isOpen, toggle } = useDropdown();
 
   return (
     <button
       onClick={toggle}
       className={cn(
-        !asChild && `flex items-center justify-between gap-2 px-4 py-2 
+        !asChild &&
+          `flex items-center justify-between gap-2 px-4 py-2 
         bg-white border border-gray-300 rounded-lg
         hover:bg-gray-50 focus:outline-none focus:ring-2 
         focus:ring-blue-500 focus:border-transparent
@@ -109,6 +128,8 @@ export function DropdownTrigger({
   );
 }
 
+// --- DropdownOption Component ---
+// Props interface for individual options within the dropdown menu.
 interface DropdownOptionProps {
   children: React.ReactNode;
   onClick?: () => void;
@@ -147,6 +168,8 @@ export function DropdownOption({
   );
 }
 
+// --- DropdownMenu Component ---
+// Props interface for the container of dropdown options.
 interface DropdownMenuProps {
   children: React.ReactNode;
   direction?: "left" | "right";
