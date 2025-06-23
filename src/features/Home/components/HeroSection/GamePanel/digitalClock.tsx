@@ -1,6 +1,7 @@
+import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
-const DigitalClock = () => {
+const DigitalClock = ({ className }: { className?: string }) => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -22,8 +23,7 @@ const DigitalClock = () => {
   };
 
   return (
-    <div className=" w-fit bg-white text-primary dark:text-accent rounded-4xl px-6 py-2 shadow-lg
-     text-lg font-semibold text-center tracking-widest">
+    <div className={cn("w-fit bg-white text-primary dark:text-accent rounded-4xl px-6 py-2 shadow-lg text-lg font-semibold text-center tracking-widest",className)}>
       {formatTime(time)}
     </div>
   );
