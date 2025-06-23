@@ -5,6 +5,9 @@ export const useSearchEvents = () => {
   const { filters, setResults, resetResults } = useGamorStore();
   const { data } = useGamorStore()
 
+  // Memoizes the `searchEvents` function using `useCallback`.
+  // This prevents unnecessary re-creations of the function, which is good for performance
+  // if it's passed down to child components.
   const searchEvents = useCallback(() => {
     if (!filters.game || !filters.platform) return resetResults();
 
@@ -17,9 +20,10 @@ export const useSearchEvents = () => {
 
   useEffect(() => {
     searchEvents();
-  }, [data]);
+  }, [searchEvents]);
 
   return {
     searchEvents,
   };
 };
+//Not a goot idea use largue data in localstorage but in this case i want to mock all the data

@@ -7,18 +7,24 @@ export const useEventParticipation = () => {
   const { session } = useAuthenticationStore();
   const { data, setData, currentEvent, setCurrentEvent } = useGamorStore();
 
+  // Memoizes the current user's relevant data for event participation.
+  // This `useMemo` ensures that `currentUser` is only recomputed if `session` changes.
   const currentUser = useMemo(() => {
     if (!session?.user) return null;
     return {
-      id: session.user.id,
+      id: session.user.id as string,
       username: session.user.username,
       avatar:
         session.user.avatar ?? createInitialsAvatar(session.user.username),
     };
   }, [session]);
 
+  // Memoizes the `toggleEventParticipation` function using `useCallback`.
+  // This prevents unnecessary re-creations of the function, which is good for performance
+  // if it's passed down to child components.
   const toggleEventParticipation = useCallback(
     (eventId: string) => {
+      //Validation
       if (!currentUser) {
         return {
           success: false,
@@ -26,6 +32,8 @@ export const useEventParticipation = () => {
         };
       }
 
+      // Validation: User trying to join a different event while already in one.
+      // This logic prevents a user from joining two events simultaneously.
       if (currentEvent && currentEvent.id !== eventId) {
         return {
           success: false,
@@ -34,6 +42,7 @@ export const useEventParticipation = () => {
         return;
       }
 
+      // Update the `data` (all event groups) to reflect participation change.
       const updatedData = data.map((group) => {
         const updatedEvents = group.events.map((event) => {
           if (event.id !== eventId) return event;
@@ -52,6 +61,8 @@ export const useEventParticipation = () => {
         return { ...group, events: updatedEvents };
       });
 
+      //determine the new `currentEvent` state.
+      // Finds the specific event that was toggled from the `updatedData`.
       const newCurrentEvent = updatedData
         .flatMap((g) => g.events)
         .find((e) => e.id === eventId);
@@ -60,6 +71,7 @@ export const useEventParticipation = () => {
         currentEvent?.id === eventId &&
         !newCurrentEvent?.streamers.some((s) => s.id === currentUser.id);
 
+      //Update the stores.
       setData(updatedData);
       setCurrentEvent(isLeaving ? null : newCurrentEvent || null);
 
@@ -73,3 +85,4 @@ export const useEventParticipation = () => {
 
   return { toggleEventParticipation };
 };
+// This hook can be better if we have a optimistic update and be async in real api
