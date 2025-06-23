@@ -8,6 +8,7 @@ import { Outlet } from "react-router";
 const RootLayout = () => {
   const { theme } = useGamorStore();
   const { data, setData } = useGamorStore();
+   const hasHydrated = useGamorStore.persist.hasHydrated(); // Verifica si Zustand ha hidratado el estado 
 
   useEffect(() => {
     let applied = theme;
@@ -20,20 +21,24 @@ const RootLayout = () => {
     document.documentElement.classList.toggle("dark", applied === "dark");
   }, [theme]);
 
+
   useEffect(() => {
-    if (data) {
-      return;
-    }
-    const load = async () => {
-      try {
-        const response = await loadLiveStreams();
-        setData(response);
-      } catch (error) {
-        console.error("Failed to load mock data", error);
+    if (hasHydrated) {
+      if (!data || data.length === 0) { 
+        const load = async () => {
+          try {
+            const response = await loadLiveStreams();
+            setData(response);
+          } catch (error) {
+            console.error("Failed to load live streams data", error);
+          }
+        };
+        load();
+      } else {
+        console.log("Data already loaded from persisted state");
       }
-    };
-    load();
-  }, []);
+    }
+  }, [setData, hasHydrated, data]);
 
   return (
     <ModalProvider>
