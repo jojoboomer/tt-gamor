@@ -1,9 +1,25 @@
-import Button from "@/components/ui/buttom";
+import Button, { type ButtonProps } from "@/components/ui/buttom";
+import ReactPopover from "@/components/ui/popover";
 import { useEventParticipation } from "@/hooks/useJoinEvents";
 import { toast } from "@/lib/toast-component";
 import useGamorStore from "@/store/main.store";
 import { X } from "lucide-react";
 import AvatarStack from "../../avatarStack";
+
+interface ButtonWithPopoverProps extends Omit<ButtonProps, "content"> {
+  content: React.ReactNode;
+}
+const ButtonWithPopover = ({
+  content,
+  children,
+  ...props
+}: ButtonWithPopoverProps) => (
+  <ReactPopover content={content}>
+    <Button {...props} variant="text" className="hover:scale-120">
+      {children}
+    </Button>
+  </ReactPopover>
+);
 
 const ActiveEvent = () => {
   const { currentEvent, setCurrentEvent } = useGamorStore();
@@ -34,13 +50,14 @@ const ActiveEvent = () => {
         <p>You have joined to:</p>
         <div className="inline-flex gap-2 items-center">
           {currentEvent.name}
-          <Button
+          <ButtonWithPopover
+            content={"Leave event"}
             variant="text"
             className="hover:scale-120"
             onClick={handleOnClick}
           >
             <X height={20} width={20} />
-          </Button>
+          </ButtonWithPopover>
         </div>
       </div>
     </div>

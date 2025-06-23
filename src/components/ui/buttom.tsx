@@ -31,7 +31,7 @@ const buttonVariants = cva(
   }
 )
 
-interface Props extends React.ComponentProps<"button"> {
+export interface ButtonProps extends React.ComponentProps<"button"> {
   children?: React.ReactNode;
   className?: string;
   variant?: buttonVariants;
@@ -45,7 +45,7 @@ const Button = ({
   size = "md",
   className,
   ...props
-}: Props) => {
+}: ButtonProps) => {
  
   return (
     <button
