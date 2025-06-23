@@ -6,10 +6,9 @@ import Decoration from "../decoration";
 import AvatarButton from "./avatarButton";
 
 const Header = () => {
-  const { session, user, logout } = useAuthenticationStore();
+  const { session } = useAuthenticationStore();
   const [currentPage, setCurrentPage] = useState("/");
   const navigate = useNavigate();
-  console.log(user);
 
   const handleLogin = () => {
     navigate("/login");

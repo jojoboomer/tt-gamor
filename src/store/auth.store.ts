@@ -2,10 +2,9 @@ import { loginUser } from "@/lib/authService";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-const storageKey = "gamor-store";
+const storageKey = "auth-gamor-store";
 
 interface State {
-  user: User | null;
   session: { user: User; token: string } | null;
 }
 
@@ -15,7 +14,6 @@ interface Actions {
 }
 
 const initialState: State = {
-  user: null,
   session: null,
 };
 
@@ -30,13 +28,13 @@ const useAuthenticationStore = create<State & Actions>()(
             throw new Error("Failed to login");
           }
           const res = JSON.parse(response);
-          set({ user: res.user, session: res });
+          set({  session: res });
         } catch (error) {
           console.error(error);
         }
       },
       logout: () => {
-        set({ user: null, session: null });
+        set({ session: null });
       },
     }),
     {
