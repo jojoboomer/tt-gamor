@@ -30,7 +30,7 @@ const AuthPanel = ({ className }: { className?: string }) => {
       <div className="flex gap-6 items-center justify-start w-full">
         {session ? (
           <p className="inline-flex items-center">
-            👌Welcome back {" "}
+            👋Welcome back {" "}
             <img
               src={
                 session.user.avatar ||
