@@ -1,15 +1,55 @@
 {
   "categories": [
-    { "id": "moba", "name": "MOBA" },
-    { "id": "shooter", "name": "Shooter" },
-    { "id": "battle_royale", "name": "Battle Royale" },
-    { "id": "mmorpg", "name": "MMORPG" },
-    { "id": "casual", "name": "Casual / IRL" },
-    { "id": "racing", "name": "Racing" },
-    { "id": "horror", "name": "Survival / Horror" },
-    { "id": "sandbox", "name": "Sandbox / Creativo" },
-    { "id": "card", "name": "Card Game" },
-    { "id": "action", "name": "Acción / Aventura" }
+    {
+      "id": "moba",
+      "name": "MOBA",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/21779-800x600.jpg"
+    },
+    {
+      "id": "shooter",
+      "name": "Shooter",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/460630-800x600.jpg"
+    },
+    {
+      "id": "battle_royale",
+      "name": "Battle Royale",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/511224-800x600.jpg"
+    },
+    {
+      "id": "mmorpg",
+      "name": "MMORPG",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/18122-800x600.jpg"
+    },
+    {
+      "id": "casual",
+      "name": "Casual / IRL",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/509672-800x600.jpg"
+    },
+    {
+      "id": "racing",
+      "name": "Racing",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/1826300051_IGDB-800x600.jpg"
+    },
+    {
+      "id": "horror",
+      "name": "Survival / Horror",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/491487-800x600.jpg"
+    },
+    {
+      "id": "sandbox",
+      "name": "Sandbox / Creativo",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-800x600.jpg"
+    },
+    {
+      "id": "card",
+      "name": "Card Game",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/114524791_IGDB-800x600.jpg"
+    },
+    {
+      "id": "action",
+      "name": "Acción / Aventura",
+      "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-800x600.jpg"
+    }
   ],
   "games": [
     {
