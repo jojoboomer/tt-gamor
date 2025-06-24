@@ -1,7 +1,7 @@
 import { cn, createInitialsAvatar } from "@/lib/utils";
 
 interface Props {
-  list: any[];
+  list: { username: string; avatar?: string }[];
   className?: string;
   size?: string;
 }

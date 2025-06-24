@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 interface Props {
   className?: string;
-  category: any;
+  category: { id: string; name: string; box_art_url: string };
   index: number;
 }
 const CategoryCard = ({ className, category, index }: Props) => {
