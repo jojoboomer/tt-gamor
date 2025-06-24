@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
+//This component used clock to simulate a coundown timer of the special event
 const DigitalClock = ({ className }: { className?: string }) => {
   const [time, setTime] = useState(new Date());
 
