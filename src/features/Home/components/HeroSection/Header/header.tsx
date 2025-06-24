@@ -70,7 +70,7 @@ const Header = ({ navItems, isSidebarOpen, toggleSidebar }: Props) => {
               >
                 Create account
               </CustomAccountButton>
-              <ThemeToggle variant={"text"} size={"icon"} className="size-10 shadow-lg" />
+              <ThemeToggle variant={"text"} size={"icon"} className="size-10 " />
             </>
           )}
         </div>

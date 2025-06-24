@@ -17,7 +17,7 @@ const ThemeToggle = ({className, ...props} : Props) => {
   };
 
   return (
-    <Button {...props} variant={props.variant} size={props.size} className={cn("rounded-full shadow-lg",className)} onClick={handleToggleTheme}>
+    <Button {...props} variant={props.variant} size={props.size} className={cn("rounded-full shadow-md",className)} onClick={handleToggleTheme}>
       <Sun
         className={cn(
           theme === "dark" ? "hidden" : "block",

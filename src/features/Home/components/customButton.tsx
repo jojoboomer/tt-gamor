@@ -9,7 +9,7 @@ const CustomAccountButton = ({ className, ...props }: Props) => {
   return (
     <button
       {...props}
-      className={cn("text-sm px-8 py-4 rounded-4xl shadow-lg", className)}
+      className={cn("text-sm px-8 py-4 rounded-4xl shadow-md", className)}
     >
       Create account
     </button>

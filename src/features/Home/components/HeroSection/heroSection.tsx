@@ -20,7 +20,7 @@ const HeroSection = () => {
     <section className="w-full lg:h-screen px-2 md:px-10 lg:px-20 pb-12 flex flex-col">
       <Header navItems={navItems} isSidebarOpen={isOpen} toggleSidebar={toggleSidebar} />
 
-      <div className="flex flex-col lg:flex-row h-full overflow-hidden rounded-2xl bg-transparent lg:bg-panel">
+      <div className="flex flex-col lg:flex-row h-full overflow-hidden rounded-2xl bg-transparent lg:bg-panel shadow-md">
         {/* Auth Panel */}
         <AuthPanel className="w-full lg:flex-[0.4] min-h-[70vh] p-10 flex flex-col gap-10 justify-center items-center" />
 

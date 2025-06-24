@@ -53,7 +53,7 @@ const Radio = ({
 
         {/* The animated "glider" that visually indicates the selected option. */}
         <div
-          className="absolute z-0 h-[40px] w-[80px] lg:w-[80px] xl:w-[100px] bg-neutral rounded-4xl transition-transform duration-[250ms] ease-out"
+          className="shadow-xs absolute z-0 h-[40px] w-[80px] lg:w-[80px] xl:w-[100px] bg-neutral rounded-4xl transition-transform duration-[250ms] ease-out"
           style={{
             transform: getGliderPosition(),
           }}

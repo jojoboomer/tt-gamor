@@ -190,7 +190,7 @@ export function DropdownMenu({
   return (
     <div
       className={cn(
-        `absolute top-full mt-1 min-w-full bg-panel rounded-2xl shadow-lg p-3 space-y-2
+        `absolute top-full mt-1 min-w-full bg-panel rounded-lg shadow-md p-3 space-y-2
         z-50 overflow-hidden transition-all duration-200 ease-in-out origin-top`,
         directionClass[direction],
         isOpen

@@ -48,7 +48,7 @@ const GameModal = () => {
 
   return (
     <Modal>
-      <div className="relative w-[min(95vw,48rem)] h-[min(90vh,40rem)] px-4 py-6 sm:px-6 lg:px-8 bg-panel rounded-2xl flex flex-col overflow-hidden">
+      <div className="relative w-[min(95vw,48rem)] h-[min(90vh,40rem)] px-4 py-6 sm:px-6 lg:px-8 bg-panel rounded-4xl flex flex-col overflow-hidden">
         <header className="py-2 flex z-20 sticky top-0 bg-panel">
           <Input
             className="w-full max-w-xs"
@@ -82,7 +82,7 @@ const GameModal = () => {
                       <article
                         key={game.id}
                         onClick={() => handleSelectGame(game)}
-                        className="group flex flex-col rounded-lg overflow-hidden hover:bg-gray-800/10 transition-colors cursor-pointer" // Añadido cursor-pointer
+                        className="group flex flex-col rounded overflow-hidden hover:bg-gray-800/10 transition-colors cursor-pointer" // Añadido cursor-pointer
                       >
                         <div className="aspect-[3/4] relative overflow-hidden">
                           <img

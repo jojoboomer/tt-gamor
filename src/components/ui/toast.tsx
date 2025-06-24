@@ -10,7 +10,7 @@ function Toast({ title, description, variant }: ToastProps) {
       aria-live={variant === "error" ? "assertive" : "polite"}
       aria-atomic="true"
       className={cn(
-        "bg-panel flex gap-px rounded-lg shadow-lg ring-1 ring-black/5 w-full md:max-w-[364px] items-center p-4"
+        "bg-panel flex gap-px rounded shadow-md ring-1 ring-black/5 w-full md:max-w-[364px] items-center p-4"
       )}
     >
       <div className="flex flex-1 items-center flex-col">

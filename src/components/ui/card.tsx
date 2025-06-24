@@ -7,7 +7,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 
 const Card = ({ children, className, ...props }: Props) => {
   return (
-    <div {...props} className={cn("bg-card shadow-lg rounded-2xl p-4 flex flex-col gap-4", className)}>
+    <div {...props} className={cn("bg-card shadow-md rounded-2xl p-4 flex flex-col gap-4", className)}>
       {children}
     </div>
   );

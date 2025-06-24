@@ -24,7 +24,7 @@ const ActiveEvent = () => {
   };
 
   return (
-    <div className="absolute bottom-10 bg-panel/20 backdrop-blur-2xl border border-border rounded-4xl p-4 ">
+    <div className="absolute bottom-10 bg-panel/20 backdrop-blur-2xl border border-border rounded-2xl p-4 ">
       <div className="relative flex flex-col items-center">
         <AvatarStack
           list={currentEvent.streamers}

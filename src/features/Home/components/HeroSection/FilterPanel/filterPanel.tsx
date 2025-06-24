@@ -25,7 +25,7 @@ const FilterPanel = ({ className }: { className?: string }) => {
         <h3 className="font-semibold">
           <span className="text-lg text-gray-400">02.</span> Searching Game
         </h3>
-        <div className="relative h-clamp-sm overflow-hidden flex flex-col items-center flex-1 min-h-0 w-full bg-card shadow-lg px-6 py-3 rounded-2xl ">
+        <div className="relative h-clamp-sm overflow-hidden flex flex-col items-center flex-1 min-h-0 w-full bg-card shadow-md px-6 py-3 rounded-4xl ">
           <GameSelector />
           <EventList results={results} />
           <div className="absolute bottom-0 left-0 w-full h-30 bg-gradient-to-t from-panel via-panel/80 to-transparent pointer-events-none"></div>
