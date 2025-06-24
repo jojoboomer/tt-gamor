@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwindcss";
 
@@ -13,32 +13,31 @@
 }
 
 html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, monospace;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, monospace;
 }
 
 h1 {
-    font-size: clamp(3rem, 5vw, 3.5rem);
-    line-height: 1;
+  font-size: clamp(3rem, 5vw, 3.5rem);
+  line-height: 1;
 }
 
 h2 {
-    font-size: clamp(1.8rem, 5vw, 2.0rem);
-    line-height: 1;
+  font-size: clamp(1.8rem, 5vw, 2rem);
+  line-height: 1;
 }
 
 h3 {
-    font-size: clamp(1.2rem, 5vw, 1.5rem);
-    line-height: 1;
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
+  line-height: 1;
 }
 
 h4 {
-    font-size: clamp(1rem, 5vw, 1.12rem);
-    line-height: 1;
+  font-size: clamp(1rem, 5vw, 1.12rem);
+  line-height: 1;
 }
-
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -48,38 +47,39 @@ h4 {
         "clamp-xl": "clamp(500px, 70vh, 900px)", */
 
 @theme inline {
-    --height-clamp-sm: clamp(250px, 40vh, 400px);
-    --color-background: var(--background);
-    --color-panel: var(--panel);
-    --color-card: var(--card);
+  --height-clamp-sm: clamp(250px, 40vh, 400px);
+  --color-background: var(--background);
+  --color-panel: var(--panel);
+  --color-card: var(--card);
 
-    --color-text: var(--text);
-    --color-text-secondary: var(--text-secondary);
+  --color-text: var(--text);
+  --color-text-secondary: var(--text-secondary);
 
-    --color-primary: oklch(53.837% 0.25322 294.09);
-    --color-accent: oklch(74.77% 0.16379 48.583);
-    --color-warning: oklch(54.398% 0.21819 28.722);
-    --color-border: oklch(92.8% 0.006 264.531);
-    --color-neutral: var(--neutral);
+  --color-primary: oklch(53.837% 0.25322 294.09);
+  --color-accent: oklch(74.77% 0.16379 48.583);
+  --color-warning: oklch(54.398% 0.21819 28.722);
+  --color-border: var(--border);
+  --color-neutral: var(--neutral);
 }
 
 :root {
-    --background: oklch(96.02% 0.00353 248.565);
-    --panel: oklch(98.686% 0.0026 230.456);
-    --card: oklch(100% 0.00011 271.152);
-    --text: oklch(15.513% 0.0087 274.277);
-    --text-secondary: oklch(51.48% 0.00691 240.179);
+  --background: oklch(96.02% 0.00353 248.565);
+  --panel: oklch(98.686% 0.0026 230.456);
+  --card: oklch(100% 0.00011 271.152);
+  --text: oklch(15.513% 0.0087 274.277);
+  --text-secondary: oklch(51.48% 0.00691 240.179);
 
-    --neutral: oklch(96.02% 0.00353 248.565);
-
+  --neutral: oklch(96.02% 0.00353 248.565);
+  --border: oklch(77.527% 0.0037 248.416 / 0.726);
 }
 
 .dark {
-    --background: oklch(24.116% 0.01777 255.725);
-    --panel: oklch(27.031% 0.01727 255.705);
-    --card: oklch(24.116% 0.01777 255.725);
-    --text: oklch(0.9602 0.0034 247.86);
-    --text-secondary: oklch(66.617% 0.00922 236.907);
+  --background: oklch(24.116% 0.01777 255.725);
+  --panel: oklch(27.031% 0.01727 255.705);
+  --card: oklch(24.116% 0.01777 255.725);
+  --text: oklch(0.9602 0.0034 247.86);
+  --text-secondary: oklch(66.617% 0.00922 236.907);
 
-    --neutral: oklch(45.678% 0.00005 271.152);
+  --neutral: oklch(45.678% 0.00005 271.152);
+  --border: oklch(64.341% 0.00007 271.152 / 0.747);
 }
