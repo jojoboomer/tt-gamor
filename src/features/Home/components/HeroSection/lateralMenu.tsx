@@ -16,7 +16,7 @@ const LateralMenu: React.FC<SideMenuProps> = ({ navItems, closeSidebar }) => {
   const { toggleTheme } = useGamorStore();
   const navigate = useNavigate();
   const location = useLocation();
-  const currentPage = location.pathname; // This is important for active link styling in sidebar
+  const currentPage = location.pathname;
 
   const handleLogin = () => {
     navigate("/login");
@@ -63,7 +63,7 @@ const LateralMenu: React.FC<SideMenuProps> = ({ navItems, closeSidebar }) => {
         )}
       </div>
       {session && (
-        <div className="mt-12 flex items-center gap-3 pt-4 border-t border-gray-200 dark:border-gray-700">
+        <div className="mt-12 flex items-center gap-3 pt-4 ">
           <Avatar />
           <span className="text-gray-800 dark:text-gray-200 font-semibold">
             Hello {session.user?.username || session.user?.email}
